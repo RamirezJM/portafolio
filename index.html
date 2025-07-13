@@ -4,12 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <div>
-    <h1>Pronto disponible!</h1>
-    <img src="images.png" alt="on work">
-  </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Sobre mi</a></li>
+        <li><a href="#">Tecnologias</a></li>
+        <li><a href="">Formación</a></li>
+        <li><a href="">Proyectos</a></li>
+        <li><a href="">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
 </body>
+<div id="maintenance-overlay" style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a202c; /* Usando uno de tus colores oscuros recomendados */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e2e8f0; /* Color de texto claro para contraste */
+    font-family: sans-serif; /* Puedes usar tu fuente preferida */
+    z-index: 9999; /* Asegura que esté por encima de todo */
+    text-align: center;
+    padding: 20px;
+">
+    <img src="assets/images/images.png" alt="Hombre trabajando" style="
+        max-width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 8px; /* Un poco de estilo para la imagen */
+    ">
+    <h1 style="font-size: 2.5em; margin-bottom: 10px;">¡Pronto Disponible! 🚀</h1>
+    <p style="font-size: 1.2em; max-width: 600px;">
+        Estamos trabajando arduamente para finalizar este espacio.
+        ramirezjosemiguel@gmail.com
+    </p>
+</div>
 </html>

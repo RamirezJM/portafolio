@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+
+div{
+  width: 60%;
+  margin: 4rem auto;
+  text-align: center;  
+}
+h1{
+  font-size: 4rem;
+  margin: 4rem;
+}
+
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    z-index: 2000; /* Asegúrate de que esté por encima de todo */
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: 90%;
+    overflow: auto; /* Habilitar scroll si el contenido es muy largo */
+    background-color: rgba(0,0,0,0.6); /* Fondo semi-transparente oscuro */
+    justify-content: center; /* Centrar contenido con flexbox */
+    align-items: center; /* Centrar contenido con flexbox */
+}
+
+/* Contenido del modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto; /* Para centrar si no usas flexbox */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ancho del modal */
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: relative; /* Para posicionar el botón de cerrar */
+    text-align: center;
+}
