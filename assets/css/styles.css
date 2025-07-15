@@ -5,17 +5,43 @@
 }
 
 
-div{
-  width: 60%;
-  
-  text-align: center;  
-}
-h1{
-  font-size: 4rem;
-  margin: 4rem;
+
+
+
+/*  FORMACION */
+
+.tab.buttons{
+  display: flex;
+  gap: 1em;
 }
 
-.skills img{
-  width: auto;
-  height: 30px;
+.tab-btn{
+  background-color: burlywood;
+}
+
+.tab-btn.active{
+  background-color: #333;
+  color: #fff;
+
+}
+
+.tab-content{
+  display: none;
+  max-height: 300px;
+  overflow-y: auto;
+  background: white;
+  padding: 1em;
+}
+
+.tab-content.active{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.card{
+  background-color: #fff;
+  border: solid 1px black;
+  padding: 1em;
+
 }

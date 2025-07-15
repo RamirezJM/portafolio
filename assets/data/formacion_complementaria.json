@@ -1,0 +1,106 @@
+[
+  {
+    "titulo": "Programa Académico de Bachillerato",
+    "institucion": "Universidad de Chile",
+    "horas": null,
+    "fecha": "1999 - 2001",
+    "habilidades": "Ciencias - Humanidades", 
+    "link": null
+  },
+  {
+    "titulo": "Licenciatura en Historia",
+    "institucion": "Universidad de Chile",
+    "horas": null,
+    "fecha": "2002 - 2007",
+    "habilidades": null, 
+    "link":null
+  },
+  {
+    "titulo": "Diplomado en Lengua Árabe (Intermedio)",
+    "institucion": "Centro de Estudios Árabes - Universidad de Chile",
+    "horas": null,
+    "fecha": "2003 - 2004",
+    "habilidades": null, 
+    "link":null
+  },
+  {
+    "titulo": "Diplomado en Ciencias de la Religión, mención Islam",
+    "institucion": "Centro de Estudios Judaicos - Universidad de Chile",
+    "horas": null,
+    "fecha": "2006",
+    "habilidades": null,
+    "link":null
+  },
+  {
+    "titulo": "British Council English Online Self-Study Level B-2",
+    "institucion": "British Council",
+    "horas": 216,
+    "fecha": "may-24",
+    "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
+    "link":"/assets/certificados/british.pdf"
+  },
+    {
+    "titulo": "English for Developers",
+    "institucion": "Eductecno",
+    "horas": 50,
+    "fecha": "nov-24",
+    "habilidades": "Technical english",
+    "link":"/assets/certificados/ingles-edutecno.pdf"
+  },
+  {
+    "titulo": "English for Interactions in the Workplace Intermediate Level",
+    "institucion": "Pontificia Universidad Católica de Chile",
+    "horas": 11,
+    "fecha": "may-24",
+    "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
+    "link":"https://www.coursera.org/account/accomplishments/records/YWTTGXY3VBTS"
+  },
+  {
+    "titulo": "English for Science, Technology, Engineering, and Mathematics",
+    "institucion": "University of Pennsylvania",
+    "horas": 34,
+    "fecha": "may-24",
+    "habilidades": "STEM - grammar - vocabulary - research",
+    "link": "https://www.coursera.org/account/accomplishments/records/K8XC474Y7BWK"
+  },
+  {
+    "titulo": "English for Common Interactions in the Workplace: Basic Level",
+    "institucion": "Pontificia Universidad Católica de Chile",
+    "horas": 8,
+    "fecha": "mar-24",
+    "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
+    "link": "https://www.coursera.org/account/accomplishments/records/KXJZ56RJNMJU"
+  },
+  {
+    "titulo": "Estadística y probabilidad",
+    "institucion": "Universidad Nacional Autónoma de México",
+    "horas": 28,
+    "fecha": "nov-23",
+    "habilidades": "Estadística - probabilidad - gráficos",
+    "link": "https://www.coursera.org/account/accomplishments/records/G6BX4EGPQKV4"
+  },
+  {
+    "titulo": "Aprender",
+    "institucion": "Universidad Nacional Autónoma de México",
+    "horas": 9,
+    "fecha": "oct-23",
+    "habilidades": "Aprendizaje - pensamiento crítico - productividad",
+    "link": "https://www.coursera.org/account/accomplishments/records/MAGPEQPKYSDN"
+  },
+  {
+    "titulo": "Learning How to Learn",
+    "institucion": "Deep Teaching Solutions",
+    "horas": 19,
+    "fecha": "oct-23",
+    "habilidades": "Learning Strategies - Critical Thinking - Problem Solving",
+    "link": "https://www.coursera.org/account/accomplishments/records/X6B9YCCRJ5HD"
+  },
+  {
+    "titulo": "Inglés Avanzado",
+    "institucion": "Biblioredes",
+    "horas": 30,
+    "fecha": "sep-19",
+    "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
+    "link": "/assets/certificados/ingles-biblio.pdf"
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "titulo": "Bootcamp Desarrollo de Aplicaciones Full Stack JavaScript",
+    "institucion": "Talento Digital para Chile",
+    "horas": 472,
+    "fecha": "Noviembre-2024",
+    "habilidades": "HTML5 - CSS3 - JavaScript - Node.js - Express.js - SQL",
+    "link":"https://www.acreditta.com/credential/53a7bdbf-f4bf-4d8c-a524-44fa2e30e5c6"
+  },
+  {
+    "titulo": "Meta Front-End Developer Professional Certificate",
+    "institucion": "Meta",
+    "horas": 240,
+    "fecha": "Julio-2025",
+    "habilidades": "HTML5 - CSS3 - JavaScript - React - UX - GitHub - Web Development",
+    "link":""
+  },
+  {
+    "titulo": "Frontend Development Specialization",
+    "institucion": "Scrimba",
+    "horas": 80,
+    "fecha": "Agosto-2025",
+    "habilidades": "HTML5 - CSS3 - JavaScript - React - UX - Web Design",
+    "link": ""
+  },
+  {
+    "titulo": "Become a JavaScript Developer Specialization",
+    "institucion": "Scrimba",
+    "horas": 40,
+    "fecha": "Agosto-2025",
+    "habilidades": "JavaScript - programming",
+    "link":""
+  },
+  {
+    "titulo": "Google UX Design Professional Certificate",
+    "institucion": "Google",
+    "horas": 240,
+    "fecha": "Agosto-2025",
+    "habilidades": "User experience - Figma - Design - User research",
+    "link":""
+  },
+  {
+    "titulo": "JavaScript for Beginners Specialization",
+    "institucion": "University of California, Davis.",
+    "horas": 40,
+    "fecha": "Agosto-2025",
+    "habilidades": "HTML5 - CSS3 - JavaScript - Web Design - jQuery",
+    "link":""
+  },
+  {
+    "titulo": "Web Development for Beginners Specialization",
+    "institucion": "University of California, Davis.",
+    "horas": 40,
+    "fecha": "Mayo-2025",
+    "habilidades": "HTML5 - CSS3 - Web Development - Responsive Design",
+    "link":"https://www.coursera.org/account/accomplishments/specialization/YRXFCAA0WYWL"
+  },
+  {
+    "titulo": "HTML, CSS, and JavaScript for Web Developers Specialization",
+    "institucion": "Johns Hopkins University",
+    "horas": 40,
+    "fecha": "Marzo-2025",
+    "habilidades": "HTML5 - CSS3 - JavaScript - Responsive Design - Web Development",
+    "link":"https://www.coursera.org/account/accomplishments/specialization/0JVTXZEHQJUD"
+  },
+  {
+    "titulo": "Responsive Web Design Specialization",
+    "institucion": "Scrimba",
+    "horas": 40,
+    "fecha": "Marzo-2025",
+    "habilidades": "Responsive Design",
+    "link":"https://www.coursera.org/account/accomplishments/specialization/1C7O1WVGVOQ6"
+  },
+  {
+    "titulo": "CSS Specialization",
+    "institucion": "Scrimba",
+    "horas": 40,
+    "fecha": "Marzo-2025",
+    "habilidades": "HTML5 - CSS3 - Responsive Design",
+    "link":"https://www.coursera.org/account/accomplishments/specialization/C4RZ125YF6HF"
+  },
+  {
+    "titulo": "Certificado Profesional de Análisis de datos de Google",
+    "institucion": "Google",
+    "horas": 240,
+    "fecha": "Diciembre-2024",
+    "habilidades": "Análisis de datos, SQL, pensamiento analítico, visualización de datos",
+    "link": "https://www.coursera.org/account/accomplishments/professional-cert/6PF35XCDDZC0"
+  },
+
+  {
+    "titulo": "Web Design for Everybody: Basics of Web Development & Coding",
+    "institucion": "University of Michigan",
+    "horas": 80,
+    "fecha": "Noviembre-2024",
+    "habilidades": "HTML5 - CSS3 - Responsive Design - Web Development",
+    "link":"https://www.coursera.org/account/accomplishments/specialization/KTVO1HMKZFU4"
+  },
+  {
+    "titulo": "Fundamentals of Web Development",
+    "institucion": "Illinois Tech",
+    "horas": 134,
+    "fecha": "Abril-2024",
+    "habilidades": "GitHub - CSS3 - HTML5 - Web Development",
+    "link": "https://www.coursera.org/account/accomplishments/records/4D5TPALPHXPX"
+  },
+  {
+    "titulo": "Analista Web",
+    "institucion": "SENCE",
+    "horas": 30,
+    "fecha": "Marzo-2024",
+    "habilidades": "Marketing digital - SEO - analítica de datos",
+    "link": "/assets/certificados/analista-web.pdf"
+  },
+  {
+    "titulo": "Data Science Math Skills",
+    "institucion": "Duke University",
+    "horas": 13,
+    "fecha": "Marzo-2024",
+    "habilidades": "Data science - probability - graphing",
+    "link": "https://www.coursera.org/account/accomplishments/records/Y3M46GWQX8X7"
+  },
+  {
+    "titulo": "Diplomado en Fundamentos de la Programación y el Desarrollo Web",
+    "institucion": "SENCE",
+    "horas": 110,
+    "fecha": "Marzo-2024",
+    "habilidades": "HTML5 - CSS3 - programación - Wordpress",
+    "link":"/assets/certificados/fund-prog.pdf"
+  },
+  {
+    "titulo": "Diplomado en Diseño y Programación Web",
+    "institucion": "SENCE",
+    "horas": 100,
+    "fecha": "Febrero-2024",
+    "habilidades": "Diseño web - programación - JavaScript - HTML5 - CSS3",
+    "link": "/assets/certificados/diseño-web.pdf"
+  },
+  {
+    "titulo": "Principios básicos de internet de las cosas",
+    "institucion": "SENCE",
+    "horas": 20,
+    "fecha": "Noviembre-2023",
+    "habilidades": "IoT - programación - algoritmos",
+    "link": "/assets/certificados/iot.pdf"
+  },
+  {
+    "titulo": "Lenguaje Scratch",
+    "institucion": "Jovenes Programadores",
+    "horas": 40,
+    "fecha": "Septiembre-23",
+    "habilidades": "Scratch - programación - algoritmos",
+    "link":"/assets/certificados/scratch.pdf"
+  }
+]
