@@ -40,3 +40,24 @@ async function dataLoad(tabId, jsonData) {
 }
 dataLoad('tecnica', 'assets/data/formacion.json')
 dataLoad('complementaria', 'assets/data/formacion_complementaria.json')
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+   autoplay: {
+   delay: 5000,
+ },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
