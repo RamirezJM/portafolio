@@ -1,3 +1,24 @@
+/* menu */
+
+const openButton = document.querySelector('.open-menu')
+const closeButton = document.querySelector('.close-menu')
+const navMenu = document.querySelector('nav')
+
+openButton.addEventListener('click', () => {
+  navMenu.classList.add('active')
+})
+closeButton.addEventListener('click', () => {
+  navMenu.classList.remove('active')
+})
+
+
+
+
+
+
+
+
+
 
 const buttons = document.querySelectorAll('.tab-btn')
 const contents = document.querySelectorAll('.tab-content')
