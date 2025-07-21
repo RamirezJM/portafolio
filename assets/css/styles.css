@@ -31,9 +31,19 @@ body{
   font-family: 'Manrope', sans-serif;
   line-height: 1.5;
   scroll-behavior: smooth;
+  color: #f0f0f0;
+  background-color: #181818;
+
+
+  /* background-color: #121212;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.015) 1px, transparent 1px);
+  background-size: 20px 20px;
+
+  color: #e0e0e0; */
 }
 h1, h2, h3{
   font-family: 'DM Serif Display', serif;
+  color: #4f46e5;
 }
 
 .about, .skills, .formation, .projects, .references, .contact{
@@ -49,9 +59,11 @@ header{
   width: 100%;
   display: flex;
   flex-wrap: wrap; 
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
- /*  padding: 1em; */
+  padding-block: 1em; 
+  background-color: #1e1e1e;
+  box-shadow: 0 3px 2px #4b5563;
   
 }
 
@@ -69,7 +81,7 @@ nav{
    max-height: 0;
    opacity: 0;
    visibility: hidden;
-   transition: opacity .3s ease-out, max-height .3s ease-out, visibility .3s;
+   /* transition: opacity .3s ease-out, max-height .3s ease-out, visibility .3s; */
    
 }
 .active{
@@ -85,7 +97,10 @@ nav{
 }
 
 /*****  HERO  *****/
-
+.hero{
+  background-color: #333333;
+  padding: 1em;
+}
 .hero, .hero-text{
   display: flex;
   flex-direction: column;
@@ -206,7 +221,17 @@ nav{
 
 }
 
+/*****  PROJECTS  *****/
+
+.swiper>blockquote{
+  width: 80%;
+  
+}
+.swiper-button-prev, .swiper-button-next{
+  display: none;
+}
 /*****  CONTACT  *****/
+
 
 .contact>h2{
   text-align: center;
@@ -218,6 +243,15 @@ form{
   grid-template-columns: 1fr;
 
 }
+input{
+  
+  padding: .3rem;
+  margin-bottom: .5em;
+}
+textarea{
+  height: 5rem;
+}
+
 
 /*****  FOOTER  *****/
 
@@ -235,16 +269,23 @@ footer{
   }
 
   form{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     row-gap: 1em;
+    width: 70%;
+    margin: 0 auto;
   }
   label{
     grid-column: 1/2;
-    justify-self: center;
+    /* justify-self: center; */
 
   }
   input, textarea{
-    grid-column: 2/4;
+    grid-column: 2/-1;
+  }
+
+  .swiper{
+    width: 70%;
+    margin: 0 auto;
   }
 }
 
@@ -253,6 +294,3 @@ footer{
 
 
 
-.swiper{
-  height: 200px;
-}
