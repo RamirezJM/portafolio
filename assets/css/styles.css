@@ -25,6 +25,13 @@
   font-display: swap;
 }
 
+:root{
+  --main: linear-gradient(45deg, #121212, #353839 50%, #1c1c1c);
+  --bg1: #1c1c1e;
+  --bg2: #2a2e35;
+
+}
+
 /*****  GENERAL  *****/
 
 body{
@@ -32,7 +39,7 @@ body{
   line-height: 1.5;
   scroll-behavior: smooth;
   color: #f0f0f0;
-  background-color: #181818;
+  background: var(--main);
 
 
   /* background-color: #121212;
@@ -45,7 +52,12 @@ h1, h2, h3{
   font-family: 'DM Serif Display', serif;
   color: #4f46e5;
 }
-
+h1{
+  font-size: 2.5rem;
+}
+h2{
+  font-size: 1.8rem;
+}
 .about, .skills, .formation, .projects, .references, .contact{
   width: 80%;
   max-width: 1000px;
@@ -97,15 +109,13 @@ nav{
 }
 
 /*****  HERO  *****/
-.hero{
-  background-color: #333333;
-  padding: 1em;
-}
+
 .hero, .hero-text{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1em;
+  padding: 1em;
 }
 
 
@@ -136,6 +146,7 @@ nav{
 
 /*****  SKILLS  *****/
 
+
 .skills{
   display: flex;
   flex-wrap: wrap;
@@ -148,7 +159,7 @@ nav{
   margin-top: 1em;
 }
 .badge{
-  height: 25px;
+  height: 30px;
   width: auto;
 }
 
@@ -179,7 +190,7 @@ nav{
   background-color: #333;
   color: #fff;
   opacity: 1;
-  border: solid 1px red;
+  border: solid 1px #cbd5e0;
   box-shadow: 2px 2px 2px black;
 
 }
@@ -188,9 +199,9 @@ nav{
   display: none;
   max-height: 300px;
   overflow-y: auto;
-  background: white;
+  background: var(--bg2);
   padding: 1em;
-  border: solid red 1px;
+  border: solid #cbd5e0 1px;
 }
 
 .tab-content.active{
@@ -202,7 +213,7 @@ nav{
   width: 10px;
 }
 .tab-content::-webkit-scrollbar-thumb{
-  background-color: aqua;
+  background-color: #d64045;
   border-radius: 5px;
   border: solid 1px black;
   background-clip: content-box;

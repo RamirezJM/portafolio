@@ -13,7 +13,7 @@ closeButton.addEventListener('click', () => {
 
 
 
-
+   AOS.init();
 
 
 
