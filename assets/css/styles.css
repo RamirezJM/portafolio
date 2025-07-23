@@ -60,9 +60,9 @@ h2{
 }
 .about, .skills, .formation, .projects, .references, .contact{
   width: 80%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 1em;
+ /*  padding: 1em; */
 }
 
 /*****  HEADER  *****/
@@ -199,9 +199,9 @@ nav{
   display: none;
   max-height: 300px;
   overflow-y: auto;
-  background: var(--bg2);
+  background: #2a2e35;
   padding: 1em;
-  border: solid #cbd5e0 1px;
+ 
 }
 
 .tab-content.active{
@@ -233,6 +233,14 @@ nav{
 }
 
 /*****  PROJECTS  *****/
+
+.project{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 
 .swiper>blockquote{
   width: 80%;

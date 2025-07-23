@@ -39,7 +39,7 @@ async function dataLoad(tabId, jsonData) {
   try {
     const res = await fetch(jsonData)
     const data = await res.json()
-    console.log(data)
+  /*   console.log(data) */
     if (data[0].id !== undefined) {
       data.sort((a, b) => a.id - b.id)
     } else {
