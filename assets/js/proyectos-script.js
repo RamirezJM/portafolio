@@ -11,7 +11,7 @@ async function projectLoad(container, dataProjects) {
       const card = document.createElement('article')
       card.className = 'project'
       card.innerHTML = `
-                        <img src="${project.imagen}" alt="imagen proyecto">
+                        <img src="${project.imagen}" class="project-image" alt="imagen proyecto">
                         <section class="project-info">
                           <h3>${project.titulo}</h3>
                           <p class="project-description">${project.descripcion}</p>
@@ -20,8 +20,9 @@ async function projectLoad(container, dataProjects) {
                             <a href="${project.urlCodigo}">codigo</a>
                             <a href="${project.urlProyecto}">sitio</a>
                           </div>
+                          <button class="btn-details" aria-expanded="false" aria-controls="details-${project.titulo}">Detalles</button>
                         </section>
-                        <button class="btn-details" aria-expanded="false" aria-controls="details-${project.titulo}">Detalles</button>
+                        
       
       `
       projectContainer.appendChild(card)  

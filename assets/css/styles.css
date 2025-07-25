@@ -120,7 +120,7 @@ nav{
 
 
 .hero-image{
-  width: 200px;
+  width: clamp(30%, 35vw, 40%);
   border-radius: 50%;
 }
 
@@ -142,6 +142,9 @@ nav{
   text-align: center;
   margin-top: 1em;
   
+}
+.about-courses{
+  grid-column: 1/-1;
 }
 
 /*****  SKILLS  *****/
@@ -237,7 +240,22 @@ nav{
 .project{
   display: flex;
   flex-direction: column;
+  gap: 1em;
+  border: green solid 1px;
+  border-radius: 5px;
+  padding: 1em;
+  margin-block: 1em;
 }
+
+.project-image{
+  width: 100%;
+}
+.btn-details{
+  padding: .5em 1em;
+  border: red solid 1px;
+
+}
+
 
 
 
@@ -264,28 +282,98 @@ form{
 }
 input{
   
-  padding: .3rem;
-  margin-bottom: .5em;
+  padding: .5em;
+  margin-bottom: 1em;
 }
 textarea{
   height: 5rem;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+.btn-submit{
+  width: fit-content;
+  justify-self: center;
+  margin-block: 1em;
+  padding: .5em 2em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background-color: #2563eb;
+
 }
 
+/* Para los spans de mensaje de error */
+.error-message {
+    color: #e74c3c; /* Un rojo para errores */
+    font-size: 0.85em;
+    margin-block: .5em;
+    display: block;  /* Para que cada error ocupe su propia línea */
+   grid-column: 1/-1;
+  justify-self: center; 
+  }
+
+/* Para resaltar los campos inválidos */
+input.invalid, textarea.invalid {
+    border-color: #e74c3c; /* Borde rojo para el campo con error */
+    box-shadow: 0 0 0 0.2rem rgba(231, 76, 60, 0.25); /* Un suave resplandor rojo */
+}
+
+/* Para el mensaje de estado general del formulario */
+.form-status-message {
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    /* Los colores se asignan en JS */
+}
 
 /*****  FOOTER  *****/
 
 footer{
   padding: 1em;
   text-align: center;
+  border-top: solid 2px #4b5563;
 }
 
 /*****  MEDIA QUERIES  *****/
 
 @media (min-width:800px){
+
+  .open-menu{
+    display: none;
+  }
+  nav{
+    max-height: 100%;
+  opacity: 1;
+  visibility: visible;
+
+  }
+  .list-links{
+    flex-direction: row ;
+  }
+
+
+  .hero{
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .hero-text{
+    order: -1;
+    width: 50%;
+  }
   .about{
     grid-template-columns: 1fr 1fr;
     gap: 2em;
   }
+
+  .project{
+    flex-direction: row;
+  }
+
+  .project-image{
+   width: 50%;
+  }
+ 
 
   form{
     grid-template-columns: repeat(5, 1fr);
@@ -300,6 +388,10 @@ footer{
   }
   input, textarea{
     grid-column: 2/-1;
+    margin-bottom: .5em;
+  }
+  .btn-submit{
+    grid-column: 1/-1;
   }
 
   .swiper{

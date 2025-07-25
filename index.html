@@ -15,11 +15,11 @@
     <img src="assets/images/logoJM.png" alt="logo JM" class="logo">
     <button class="open-menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-        class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+        class="icon icon-tabler icons-tabler-outline icon-tabler-baseline-density-medium">
         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <path d="M4 6l16 0" />
-        <path d="M4 12l16 0" />
-        <path d="M4 18l16 0" />
+        <path d="M4 20h16" />
+        <path d="M4 12h16" />
+        <path d="M4 4h16" />
       </svg></button>
     <nav>
       <ul class="list-links">
@@ -43,7 +43,8 @@
       <img src="assets/images/avatar.webp" alt="avatar image" class="hero-image"
         title="Der Wanderer über dem Nebelmeer - 2818" data-aos="zoom-in" data-aos-duration="800">
       <div class="hero-text">
-        <h1>Desarrollador FullStack Javascript</h1>
+        <h1>Hola, soy José Ramírez</h1>
+        <p>Desarrollador JavaScript</p>
         <p>Diseño soluciones web funcionales, fluidas y orientadas al usuario. Valoro el detalle, disfruto el proceso y
           busco dejar una huella.</p>
       </div>
@@ -60,7 +61,7 @@
         siempre han sido parte de mí, y encuentro en la programación el medio perfecto para expresarlas. También
         disfruto las actividades manuales, como la cocina y la carpintería, el running, y soy un
         lector voraz (mis favoritos: novelas policiales, ciencia ficción y, por supuesto, Historia.).</p>
-      <p>Actualmente me encuentro estudiando:</p>
+      <!--   <p class="about-courses">Actualmente me encuentro estudiando:</p>
       <ul>
         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tempora tenetur repudiandae necessitatibus
           blanditii</li>
@@ -68,7 +69,7 @@
           blanditii</li>
         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tempora tenetur repudiandae necessitatibus
           blanditii</li>
-      </ul>
+      </ul> -->
     </section>
 
     <section class="skills" id="skills">
@@ -126,7 +127,7 @@
     <section class="projects" id="projects">
       <h2>Proyectos</h2>
       <div id="project-container"></div>
-   <!--    <article class="project">
+      <!--    <article class="project">
         <img src="assets/images/mundo_animal.jpg" alt="sitio web mundo animal">
         <section class="project-info">
           <h3>Peluquería canina "Mundo Animal"</h3>
@@ -146,12 +147,7 @@
         </section>
          <button class="btn-details" aria-expanded="false" aria-controls="details-mundo-animal">Detalles</button>
       </article>
-
-
-      <article>proyecto2</article>
-      <article>proyecto3</article>
-      <article>proyecto4</article>
-      <article>proyecto5</article> -->
+      -->
     </section>
 
     <section class="references" id="references">
@@ -193,14 +189,21 @@
 
     <section class="contact" id="contact">
       <h2>Contacto</h2>
-      <form action="">
+      <p id="status-message" aria-live="polite"></p>
+      <form action="https://formspree.io/f/mpwldqwd" method="post" id="contact-form" novalidate>
         <label for="name">Nombre</label>
-        <input type="text" id="name" name="name">
+        <input type="text" id="name" name="name" minlength="5" placeholder="Juan Perez" aria-describedby="nameError"
+          required>
+        <span id="nameError" class="error-message" aria-live="polite"></span>
         <label for="email">Email</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email" placeholder="tu_correo@mail.com"
+          aria-describedby="emailError required">
+        <span id="emailError" class="error-message" aria-live="polite"></span>
         <label for="message">Mensaje</label>
-        <textarea name="message" id="message"></textarea>
-        <button>Enviar</button>
+        <textarea name="message" id="message" name="message" minlength="10"
+          placeholder="Me gustaría contactarte para..." aria-describedby="messageError" required></textarea>
+        <span id="messageError" class="error-message" aria-live="polite"></span>
+        <button type="submit" class="btn-submit" id="btn-submit">Enviar</button>
       </form>
     </section>
   </main>
@@ -212,10 +215,13 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="assets/js/formacion-script.js"></script>
   <script src="assets/js/proyectos-script.js"></script>
+  <script src="assets/js/formulario-validacion-script.js"></script>
+  <script src="assets/js/formulario-envio-script.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
-<!--  <div id="maintenance-overlay" style="
+ <div id="maintenance-overlay" style="
     position: fixed;
     top: 0;
     left: 0;
@@ -243,7 +249,7 @@
     Estamos trabajando arduamente para finalizar este espacio.
     ramirezjosemiguel@gmail.com
   </p>
-</div>
-  -->
+</div> 
+
 
 </html>
