@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nameError = document.getElementById('nameError');
     const emailInput = document.getElementById('email');
     const emailError = document.getElementById('emailError');
-    const mensajeInput = document.getElementById('messaje');
+    const mensajeInput = document.getElementById('message');
     const messageError = document.getElementById('messageError');
 
     // --- Validación en tiempo real (opcional, pero mejora UX) ---

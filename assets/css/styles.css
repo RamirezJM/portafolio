@@ -26,7 +26,7 @@
 }
 
 :root{
-  --main: linear-gradient(45deg, #121212, #353839 50%, #1c1c1c);
+  --main: linear-gradient(45deg, #121212, #353839 50%, #6e8898 60% , #1c1c1c);
   --bg1: #1c1c1e;
   --bg2: #2a2e35;
 
@@ -40,6 +40,9 @@ body{
   scroll-behavior: smooth;
   color: #f0f0f0;
   background: var(--main);
+  background-size: 300% 100%;
+  min-height: 100vh;
+  animation: gradient-flow 15s linear infinite;
 
 
   /* background-color: #121212;
@@ -48,6 +51,8 @@ body{
 
   color: #e0e0e0; */
 }
+
+
 h1, h2, h3{
   font-family: 'DM Serif Display', serif;
   color: #4f46e5;
@@ -238,8 +243,11 @@ nav{
 /*****  PROJECTS  *****/
 
 .project{
-  display: flex;
-  flex-direction: column;
+ /*  display: flex;
+  flex-direction: column; */
+
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 1em;
   border: green solid 1px;
   border-radius: 5px;
@@ -253,8 +261,37 @@ nav{
 .btn-details{
   padding: .5em 1em;
   border: red solid 1px;
+  color: black;
 
 }
+.project-badges{
+  display: flex;
+  gap: .5em;
+}
+
+.tech-badge{
+  width: 30px;
+}
+
+.project-details{
+  max-height: 0;
+  overflow: hidden;
+   padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0; /* Inicia transparente */
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.project-details.show-details {
+    /* Un valor lo suficientemente grande para contener todo el contenido cuando está desplegado */
+    /* Ajusta este valor si tu contenido es muy largo */
+    max-height: 900px; 
+    padding-top: 15px; /* Un poco de padding cuando se muestra */
+    padding-bottom: 15px;
+    opacity: 1; /* Se vuelve visible */
+}
+
+
 
 
 
@@ -371,7 +408,7 @@ footer{
   }
 
   .project-image{
-   width: 50%;
+   width: 100%;
   }
  
 
@@ -400,6 +437,14 @@ footer{
   }
 }
 
+@media (min-width:1000px){
+  .project{
+    grid-template-columns: 1fr 1fr;
+  }
+  .project-info{
+    order: -1;
+  }
+}
 
 
 

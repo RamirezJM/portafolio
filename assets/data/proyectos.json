@@ -5,21 +5,28 @@
     "imagen": "/assets/images/mundo_animal.jpg",
     "descripcion": "Desarrollo de un sitio web para una peluquería canina con con 20 años de trayectoria, que aumentó sus ventas de servicios un 30%. Implementé una estrategia SEO integral  que la ubicó en el Top 5 de búsquedas locales en solo 3 meses, superando a competidores consolidados",
     "tecnologias": [
-      {"path": "/assets/images/html5.svg", "alt": "html5 badge"},
-      {"path": "/assets/images/css3.svg", "alt": "css3 badge"},
-      {"path": "/assets/images/javascript.svg", "alt": "javascript badge"}
+      {
+        "path": "/assets/images/html5.svg",
+        "alt": "html5 badge"
+      },
+      {
+        "path": "/assets/images/css3.svg",
+        "alt": "css3 badge"
+      },
+      {
+        "path": "/assets/images/javascript.svg",
+        "alt": "javascript badge"
+      }
     ],
     "urlProyecto": "http://mundo-animal.cl/",
     "urlCodigo": "https://github.com/RamirezJM/MundoAnimal",
-    "detalles": {
-      "rol": [
-          "Diseño y Maquetación: Conceptualización y creación de la interfaz de usuario (UI) y experiencia de usuario (UX) para asegurar un sitio intuitivo y atractivo.",
-        "Desarrollo Frontend: Implementación completa del sitio web, asegurando responsividad y rendimiento.",
-        "Estrategia SEO y Posicionamiento: Investigación de palabras clave, implementación de etiquetas semánticas, meta etiquetas, optimización de Google My Business (GBP) y monitoreo para lograr el posicionamiento en el Top 5 local.",
-        "Comunicación con el Cliente: Explicación clara de aspectos técnicos y progreso del proyecto a la clienta, asegurando su comprensión y satisfacción.",
-        "Despliegue y Mantenimiento Continuo: Gestión del hosting, despliegue inicial y soporte técnico para todas las actualizaciones y necesidades futuras del sitio."
-      ]
-    },
+    "detalles": [
+      "Diseño y Maquetación: Conceptualización y creación de la interfaz de usuario (UI) y experiencia de usuario (UX) para asegurar un sitio intuitivo y atractivo.",
+      "Desarrollo Frontend: Implementación completa del sitio web, asegurando responsividad y rendimiento.",
+      "Estrategia SEO y Posicionamiento: Investigación de palabras clave, implementación de etiquetas semánticas, meta etiquetas, optimización de Google My Business (GBP) y monitoreo para lograr el posicionamiento en el Top 5 local.",
+      "Comunicación con el Cliente: Explicación clara de aspectos técnicos y progreso del proyecto a la clienta, asegurando su comprensión y satisfacción.",
+      "Despliegue y Mantenimiento Continuo: Gestión del hosting, despliegue inicial y soporte técnico para todas las actualizaciones y necesidades futuras del sitio."
+    ],
     "situacion": "actualmente sigo siendo el desarrollador del sitio y trabajo en su mantenimiento y optimizaciones."
   },
   {
@@ -28,19 +35,27 @@
     "imagen": "/assets/images/las_tablas.jpg",
     "descripcion": "Diseño y desarrollo web para 'Las Tablas', un bar-restaurant, creando una presencia online atractiva y una plataforma para destacar su propuesta gastronómica y eventos. Gestioné el diseño, la maquetación y el despliegue inicial del sitio.",
     "tecnologias": [
-      {"path": "/assets/images/html5.svg", "alt": "html5 badge"},
-      {"path": "/assets/images/css3.svg", "alt": "css3 badge"},
-      {"path": "/assets/images/javascript.svg", "alt": "javascript badge"}
+      {
+        "path": "/assets/images/html5.svg",
+        "alt": "html5 badge"
+      },
+      {
+        "path": "/assets/images/css3.svg",
+        "alt": "css3 badge"
+      },
+      {
+        "path": "/assets/images/javascript.svg",
+        "alt": "javascript badge"
+      }
     ],
     "urlProyecto": "https://las-tablas.cl/",
     "urlCodigo": "https://github.com/RamirezJM/Las_Tablas",
-    "detalles": {
-      "rol": [
+    "detalles": [
         "Diseño y Maquetación: Creación de la interfaz visual y la estructura responsive del sitio.",
         "Desarrollo Frontend: Implementación del sitio web con énfasis en la presentación de menú y ambiente.",
         "Hosting y Despliegue: Configuración y puesta en marcha del sitio en el servidor."
-      ]
-    },
+      ],
+    
     "situacion": "Actualmente el proyecto se encuentra en una pausa activa por decisión del cliente, a la espera de la finalización de un nuevo comedor para futuras integraciones."
   },
   {
@@ -49,20 +64,27 @@
     "imagen": "/assets/images/lazaro_igor.jpg",
     "descripcion": "Desarrollo de un sitio web personalizado para un artesano de Caleta Tortel, con el fin de visibilizar su obra en madera, detallar su proceso creativo y promover sus talleres.",
     "tecnologias": [
-      {"path": "/assets/images/html5.svg", "alt": "html5 badge"},
-      {"path": "/assets/images/css3.svg", "alt": "css3 badge"},
-      {"path": "/assets/images/javascript.svg", "alt": "javascript badge"}
+      {
+        "path": "/assets/images/html5.svg",
+        "alt": "html5 badge"
+      },
+      {
+        "path": "/assets/images/css3.svg",
+        "alt": "css3 badge"
+      },
+      {
+        "path": "/assets/images/javascript.svg",
+        "alt": "javascript badge"
+      }
     ],
     "urlProyecto": "https://lazaroigortortel.cl/",
     "urlCodigo": "https://github.com/RamirezJM/Lazaro_Igor",
-    "detalles": {
-      "rol": [
+    "detalles": [
         "Diseño y Maquetación: Creación de un diseño que captura la esencia del trabajo artesanal.",
         "Desarrollo Frontend: Implementación de galerías de imágenes y secciones informativas.",
         "Mantenimiento y Actualizaciones: Soporte continuo y desarrollo de nuevas funcionalidades según las necesidades del artesano."
-      ]
-    },
+      ],
+    
     "situacion": "Actualmente a cargo del desarrollo y futuras actualizaciones."
   }
-  
 ]
