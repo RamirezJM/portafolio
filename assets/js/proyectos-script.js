@@ -15,6 +15,7 @@ async function projectLoad(container, dataProjects) {
                         <section class="project-info">
                           <h3>${project.titulo}</h3>
                           <p class="project-description">${project.descripcion}</p>
+                          <h4>Tecnologías</h4>
                           <div class="project-badges"></div>
                           <div class="project-links">
                             <a href="${project.urlCodigo}">codigo</a>
