@@ -1,14 +1,12 @@
 /* menu */
 
-const openButton = document.querySelector('.open-menu')
-const closeButton = document.querySelector('.close-menu')
+const menuButton = document.querySelector('.hamburger-menu')
 const navMenu = document.querySelector('nav')
 
-openButton.addEventListener('click', () => {
-  navMenu.classList.add('active')
-})
-closeButton.addEventListener('click', () => {
-  navMenu.classList.remove('active')
+menuButton.addEventListener('click', () => {
+ const isActive = menuButton.getAttribute('aria-expanded') === 'true';
+ menuButton.setAttribute('aria-expanded', String(!isActive))
+ navMenu.classList.toggle('active')
 })
 
 
