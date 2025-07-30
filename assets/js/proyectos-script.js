@@ -9,7 +9,7 @@ async function projectLoad(container, dataProjects) {
     data.forEach(project => {
       const card = document.createElement('article')
       card.classList.add('project')
-      card.setAttribute('data-aos','fade-up')
+      
       card.innerHTML = `
                         <img src="${project.imagen}" class="project-image" alt="imagen proyecto">
                         <section class="project-info">
@@ -25,7 +25,7 @@ async function projectLoad(container, dataProjects) {
                           <div class="project-details">
                             <h4>Rol</h4>
                             <ul class="rol-details">
-                            ${project.detalles.map(detail => `<li>${detail}</li>`)}
+                            ${project.detalles.map(detail => `<li>${detail}</li>`).join('')}
                             </ul>
                             <h4>Situacion</h4>
                             <p class=project-status>${project.situacion}</p> 

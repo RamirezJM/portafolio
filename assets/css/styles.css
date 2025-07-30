@@ -64,12 +64,7 @@ h1, h2, h3{
 h1{
   font-size: clamp(2.5rem, 7vw, 3.5rem);
 }
-h2{
-  font-size: 2.8rem;
-}
-h3{
-  font-size: 2.2rem;
-}
+
 .about, .skills, .formation, .projects, .references, .contact{
   width: 80%;
   max-width: 1100px;
@@ -77,15 +72,23 @@ h3{
  /*  padding: 1em; */
 }
 
+section {
+  scroll-margin-top: 100px; /* ajusta según el alto real de tu menú */
+}
+
 a{
   color: #34de99;
+}
+a:visited{
+  color: #178c5d;
 }
 a:hover, a:focus{
   color: #B9F4DC;
 }
-a:visited{
-  color: #0b462f;
+a:active{
+ color: #e74c3c;
 }
+
 /*****  HEADER  *****/
 
 header{
@@ -97,6 +100,8 @@ header{
   padding-block: 1em; 
   background-color: #1e1e1e;
   box-shadow: 0 3px 2px #4b5563;
+  position: fixed;
+  z-index: 100;
   
 }
 
@@ -178,6 +183,11 @@ nav{
   border-radius: 5px;
   padding: .5em;
 
+}
+
+.active-link{
+  text-decoration: underline;
+  color: red;
 }
 /*****  HERO  *****/
 
@@ -385,12 +395,20 @@ span{
     /* Un valor lo suficientemente grande para contener todo el contenido cuando está desplegado */
     /* Ajusta este valor si tu contenido es muy largo */
     max-height: 900px; 
-    padding-top: 15px; /* Un poco de padding cuando se muestra */
-    padding-bottom: 15px;
+  /*   padding-top: 15px;
+    padding-bottom: 15px; */
     opacity: 1; /* Se vuelve visible */
+    
 }
 
+.rol-details{
+  list-style-type: circle;
+  padding: 1.5em;
 
+}
+.rol-details>li{
+  margin-block: .7em;
+}
 
 
 
@@ -528,6 +546,7 @@ header{
   .project-image{
    width: 100%;
   }
+
  
 
   form{
