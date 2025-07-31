@@ -184,11 +184,15 @@ nav{
   padding: .5em;
 
 }
-
-.active-link{
+.nav-link.active-link {
+  color: #ffffff;           /* Blanco sobre fondo oscuro */
+  border-bottom: 2px solid #34de99;  /* Igual que color base */
+  font-weight: bold;
+}
+/* .active-link{
   text-decoration: underline;
   color: red;
-}
+} */
 /*****  HERO  *****/
 
 .hero{
@@ -344,6 +348,9 @@ span{
 }
 
 /*****  PROJECTS  *****/
+.projects{
+  min-height: 100vh;
+}
 
 .project{
  /*  display: flex;

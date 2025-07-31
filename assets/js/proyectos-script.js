@@ -1,3 +1,5 @@
+/* import { observerSection } from './observer-script.js' */
+
 
 async function projectLoad(container, dataProjects) {
   const projectContainer = document.getElementById(container)
@@ -9,7 +11,7 @@ async function projectLoad(container, dataProjects) {
     data.forEach(project => {
       const card = document.createElement('article')
       card.classList.add('project')
-      
+
       card.innerHTML = `
                         <img src="${project.imagen}" class="project-image" alt="imagen proyecto">
                         <section class="project-info">
@@ -33,7 +35,7 @@ async function projectLoad(container, dataProjects) {
                         </section>
                        `
       const badges = card.querySelector('.project-badges')
-      project.tecnologias.forEach( techBadge => {
+      project.tecnologias.forEach(techBadge => {
         const badgeImage = document.createElement('img')
         badgeImage.src = techBadge.path
         badgeImage.alt = techBadge.alt
@@ -47,17 +49,19 @@ async function projectLoad(container, dataProjects) {
       toggleButton.addEventListener('click', () => {
         projectDetails.classList.toggle('show-details')
 
-        if(projectDetails.classList.contains('show-details')){
+        if (projectDetails.classList.contains('show-details')) {
           toggleButton.textContent = 'Ocultar detalles'
         }
-        else{
+        else {
           toggleButton.textContent = 'Ver detalles'
         }
 
       })
 
-      projectContainer.appendChild(card)  
+      projectContainer.appendChild(card)
     })
+    /* const projectsSection = document.getElementById('projects');
+    observerSection(projectsSection); */
   } catch (error) {
     console.error('Error:', error)
 
