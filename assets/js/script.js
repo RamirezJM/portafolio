@@ -21,22 +21,24 @@
   })
 }) */
 document.addEventListener('DOMContentLoaded', () => {
-const header = document.getElementById('header')
+const header = document.querySelector('header')
 let lastScrollTop = 0
 
 window.addEventListener('scroll', () => {
   const scrollMove = window.scrollY
-  if(scrollMove > lastScrollTop){
-    header.classList.remove('fixed')
-  }
-  else{
-    if(scrollMove > 5){
-      header.classList.add('fixed')
+  if (scrollMove > lastScrollTop) {
+      // Scroll hacia abajo: ocultar
+      header.classList.remove('fixed');
+      header.classList.add('hidden');
+    } else {
+      if (scrollMove > 5) {
+        header.classList.remove('hidden');
+        header.classList.add('fixed');
+      } else {
+        header.classList.remove('fixed');
+        header.classList.remove('hidden');
+      }
     }
-    else{
-      header.classList.remove('fixed')
-    }
-  }
   lastScrollTop = scrollMove
 })
 
