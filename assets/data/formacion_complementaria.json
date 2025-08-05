@@ -1,5 +1,28 @@
 [
   {
+    "titulo": "English Communication for Tech Professionals",
+    "institucion": "Arizona State University",
+    "estudiando": true,
+    "fecha": "Septiembre-2025",
+    "link": "https://www.coursera.org/learn/english-communication-for-tech-professionals"
+  },
+   {
+    "titulo": "Graphic Design Specialization",
+    "institucion": "California Institute of the Arts",
+    "estudiando": true,
+    "fecha": "Septiembre-2025",
+    "link": "https://www.coursera.org/specializations/graphic-design"
+  },
+  {
+    "id": 1,
+    "titulo": "Programa Académico de Bachillerato",
+    "institucion": "Universidad de Chile",
+    "horas": null,
+    "fecha": "1999 - 2001",
+    "habilidades": "Ciencias - Humanidades", 
+    "link": null
+  },
+  {
     "id": 1,
     "titulo": "Programa Académico de Bachillerato",
     "institucion": "Universidad de Chile",
@@ -40,7 +63,7 @@
     "titulo": "British Council English Online Self-Study Level B-2",
     "institucion": "British Council",
     "horas": 216,
-    "fecha": "may-24",
+    "fecha": "Mayo-2024",
     "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
     "link":"/assets/certificados/british.pdf"
   },
@@ -49,7 +72,7 @@
     "titulo": "English for Developers",
     "institucion": "Eductecno",
     "horas": 50,
-    "fecha": "nov-24",
+    "fecha": "Noviembre-2024",
     "habilidades": "Technical english",
     "link":"/assets/certificados/ingles-edutecno.pdf"
   },
@@ -58,7 +81,7 @@
     "titulo": "English for Interactions in the Workplace Intermediate Level",
     "institucion": "Pontificia Universidad Católica de Chile",
     "horas": 11,
-    "fecha": "may-24",
+    "fecha": "Mayo-2024",
     "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
     "link":"https://www.coursera.org/account/accomplishments/records/YWTTGXY3VBTS"
   },
@@ -67,7 +90,7 @@
     "titulo": "English for Science, Technology, Engineering, and Mathematics",
     "institucion": "University of Pennsylvania",
     "horas": 34,
-    "fecha": "may-24",
+    "fecha": "Mayo-2024",
     "habilidades": "STEM - grammar - vocabulary - research",
     "link": "https://www.coursera.org/account/accomplishments/records/K8XC474Y7BWK"
   },
@@ -76,7 +99,7 @@
     "titulo": "English for Common Interactions in the Workplace: Basic Level",
     "institucion": "Pontificia Universidad Católica de Chile",
     "horas": 8,
-    "fecha": "mar-24",
+    "fecha": "Marzo-2024",
     "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
     "link": "https://www.coursera.org/account/accomplishments/records/KXJZ56RJNMJU"
   },
@@ -85,7 +108,7 @@
     "titulo": "Estadística y probabilidad",
     "institucion": "Universidad Nacional Autónoma de México",
     "horas": 28,
-    "fecha": "nov-23",
+    "fecha": "Noviembre-2023",
     "habilidades": "Estadística - probabilidad - gráficos",
     "link": "https://www.coursera.org/account/accomplishments/records/G6BX4EGPQKV4"
   },
@@ -94,7 +117,7 @@
     "titulo": "Aprender",
     "institucion": "Universidad Nacional Autónoma de México",
     "horas": 9,
-    "fecha": "oct-23",
+    "fecha": "Octubre-2023",
     "habilidades": "Aprendizaje - pensamiento crítico - productividad",
     "link": "https://www.coursera.org/account/accomplishments/records/MAGPEQPKYSDN"
   },
@@ -103,7 +126,7 @@
     "titulo": "Learning How to Learn",
     "institucion": "Deep Teaching Solutions",
     "horas": 19,
-    "fecha": "oct-23",
+    "fecha": "Octubre-2023",
     "habilidades": "Learning Strategies - Critical Thinking - Problem Solving",
     "link": "https://www.coursera.org/account/accomplishments/records/X6B9YCCRJ5HD"
   },
@@ -112,7 +135,7 @@
     "titulo": "Inglés Avanzado",
     "institucion": "Biblioredes",
     "horas": 30,
-    "fecha": "sep-19",
+    "fecha": "Septiembre-2019",
     "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
     "link": "/assets/certificados/ingles-biblio.pdf"
   }

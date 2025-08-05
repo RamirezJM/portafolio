@@ -1,6 +1,7 @@
 [
+  
   {
-    "titulo": "Bootcamp Desarrollo de Aplicaciones Full Stack JavaScript",
+    "titulo": "Bootcamp Desarrollo de Aplicaciones Full Stack JavaScript Trainee",
     "institucion": "Talento Digital para Chile",
     "horas": 472,
     "fecha": "Noviembre-2024",
@@ -151,5 +152,19 @@
     "fecha": "Septiembre-23",
     "habilidades": "Scratch - programación - algoritmos",
     "link":"/assets/certificados/scratch.pdf"
+  },
+   {
+    "titulo": "Bootcamp Desarrollo de Aplicaciones Front-End Trainee",
+    "institucion": "Talento Digital para Chile",
+    "estudiando": true,
+    "fecha": "Septiembre-2025",
+    "link": "https://talentodigitalparachile.cl/curso/desarrollo-de-aplicaciones-full-stack-javascript-trainee/"
+  },
+   {
+    "titulo": "IBM Back-end JavaScript Developer Professional Certificate",
+    "institucion": "IBM",
+    "estudiando": true,
+    "fecha": "Septiembre-2025",
+    "link": "https://www.coursera.org/professional-certificates/backend-javascript-developer"
   }
 ]
