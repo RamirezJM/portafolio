@@ -63,11 +63,30 @@ h1, h2, h3{
   color: #8b56f6;
 }
 h1{
-  font-size: clamp(2.5rem, 7vw, 3.5rem);
+  font-size: clamp(3rem, 8vw, 4rem);
 }
 h2{
-  font-size: clamp(1.55rem, 4.3vw ,2.16rem);
-  margin-block: 1em;
+  font-size: clamp(1.875rem, 4.3vw ,2.5rem);
+  margin: 1em auto;
+  position: relative;
+  width: fit-content;
+  
+}
+h2::after{
+
+  content: '';
+  display: block;
+  width: 200px;
+  height: 10px;
+  background-color: #f0f0f0;
+  margin-top: -10px;
+  margin-left: 100px;
+  z-index: -1;
+
+}
+
+h3{
+  font-size: clamp();
 }
 
 .about, .skills, .formation, .projects, .references, .contact{
@@ -356,7 +375,7 @@ span{
 
 .tab-content{
   display: none;
-  max-height: 300px;
+  max-height: 500px;
   overflow-y: auto;
   background: #2a2e35;
   padding: 1em;
@@ -369,7 +388,7 @@ span{
   gap: 1em;
 }
 .tab-content::-webkit-scrollbar{
-  width: 10px;
+  width: 15px;
 }
 .tab-content::-webkit-scrollbar-thumb{
   background-color: #2563eb;
@@ -632,6 +651,9 @@ header{
   }
   .project-info{
     order: -1;
+  }
+  p{
+    font-size: 1.1rem;
   }
 }
 

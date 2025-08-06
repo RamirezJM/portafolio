@@ -1,28 +1,5 @@
 [
   {
-    "titulo": "English Communication for Tech Professionals",
-    "institucion": "Arizona State University",
-    "estudiando": true,
-    "fecha": "Septiembre-2025",
-    "link": "https://www.coursera.org/learn/english-communication-for-tech-professionals"
-  },
-   {
-    "titulo": "Graphic Design Specialization",
-    "institucion": "California Institute of the Arts",
-    "estudiando": true,
-    "fecha": "Septiembre-2025",
-    "link": "https://www.coursera.org/specializations/graphic-design"
-  },
-  {
-    "id": 1,
-    "titulo": "Programa Académico de Bachillerato",
-    "institucion": "Universidad de Chile",
-    "horas": null,
-    "fecha": "1999 - 2001",
-    "habilidades": "Ciencias - Humanidades", 
-    "link": null
-  },
-  {
     "id": 1,
     "titulo": "Programa Académico de Bachillerato",
     "institucion": "Universidad de Chile",
@@ -138,5 +115,19 @@
     "fecha": "Septiembre-2019",
     "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
     "link": "/assets/certificados/ingles-biblio.pdf"
+  },
+    {
+    "titulo": "English Communication for Tech Professionals",
+    "institucion": "Arizona State University",
+    "estudiando": true,
+    "fecha": "Septiembre-2025",
+    "link": "https://www.coursera.org/learn/english-communication-for-tech-professionals"
+  },
+   {
+    "titulo": "Graphic Design Specialization",
+    "institucion": "California Institute of the Arts",
+    "estudiando": true,
+    "fecha": "Septiembre-2025",
+    "link": "https://www.coursera.org/specializations/graphic-design"
   }
 ]

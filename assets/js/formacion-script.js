@@ -18,27 +18,24 @@ async function dataLoad(tabId, jsonData) {
   try {
     const res = await fetch(jsonData)
     const data = await res.json()
-    /*   console.log(data) */
-  /*   if (data[0].estudiando) {
-      data.sort((a, b) => a.estudiando - b.estudiando)
-    } else if (data[0].id !== undefined) {
-      data.sort((a, b) => a.id - b.id)
-    } else {
-      data.sort((a, b) => b.horas - a.horas)
-    } */
-   data.sort((a, b) => {
-  // Primero: ordenar por 'estudiando' (true primero)
-  if (a.estudiando !== b.estudiando) {
-    return (b.estudiando ? 1 : 0) - (a.estudiando ? 1 : 0);
-  }
 
-  // Si ambos están estudiando o no, pasamos al criterio secundario:
-  if (a.id !== undefined && b.id !== undefined) {
-    return a.id - b.id; // Para formación complementaria
-  } else {
-    return b.horas - a.horas; // Para formación técnica
-  }
-});
+    data.sort((a, b) => {
+      // 1. Priorizar los que tienen la propiedad 'estudiando'
+      const aEstudia = 'estudiando' in a;
+      const bEstudia = 'estudiando' in b;
+
+      if (aEstudia !== bEstudia) {
+        return bEstudia - aEstudia; // true - false → los que estudian arriba
+      }
+
+      // 2. Si ambos tienen o no tienen 'estudiando', seguimos:
+      if ('id' in a && 'id' in b) {
+        return a.id - b.id; // Formación complementaria
+      }
+
+      // 3. Si no tienen id, son formaciones técnicas
+      return b.horas - a.horas;
+    });
 
     data.forEach(item => {
       const card = document.createElement('div')
