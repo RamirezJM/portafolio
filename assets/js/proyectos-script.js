@@ -20,8 +20,8 @@ async function projectLoad(container, dataProjects) {
                           <h4>Tecnologías</h4>
                           <div class="project-badges"></div>
                           <div class="project-links">
-                            <a href="${project.urlCodigo}">codigo</a>
-                            <a href="${project.urlProyecto}">sitio</a>
+                            <a href="${project.urlCodigo}"><img src="assets/images/github.svg" class="project-link-image"/></a>
+                            <a href="${project.urlProyecto}"><img src="assets/images/world.svg" class="project-link-image"/></a>
                           </div>
                           <button class="btn-details" aria-expanded="false" aria-controls="details-${project.titulo}">Ver detalles</button>
                           <div class="project-details">
