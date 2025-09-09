@@ -78,12 +78,13 @@ h2::after{
 
   content: '';
   display: block;
-  width: 200px;
+  width: 150px;
   height: 30px;
   background-color: #121212;
-  margin-top: -20px;
+  margin-top: -25px;
   margin-left: 100px;
   z-index: -1;
+  box-shadow: 2px 2px 2px #4b5563;
 
 }
 
@@ -284,7 +285,7 @@ main{
 }
 
 .social-logo{
-  width: clamp(30px, 5vw, 40px);
+  width: clamp(40px, 6vw, 50px);
   background-color: #34de99;
   border-radius: 50%;
   padding: .3em;
@@ -309,9 +310,10 @@ main{
 }
 
 span{
-  /* font-size: 1.1rem; */
-  color: #34de99;
-  text-shadow: 1px 1px 1px #121212;
+/*   font-weight: 600; */
+  
+  background-color: #242424;
+  padding: .1em;
 }
 /*****  SKILLS  *****/
 
@@ -353,6 +355,7 @@ span{
   border-radius: 5px;
   opacity: .7;
   padding: .5em;
+   font-size: 1.1rem;
 }
 
 .tab-btn.active{
@@ -362,8 +365,8 @@ span{
   border: solid 3px #2563eb;
   border-radius: 5px;
   box-shadow: 2px 2px 2px black;
-  
-  font-weight: 600;
+ 
+  font-weight: 500;
 
 }
 
