@@ -29,8 +29,7 @@
     ],
     "situacion": "actualmente sigo siendo el desarrollador del sitio y trabajo en su mantenimiento y optimizaciones."
   },
-  
-    {
+   {
     "id": "lazaro-igor",
     "titulo": "Lázaro Igor, Caleta Tortel",
     "imagen": "/assets/images/lazaro_igor.jpg",
@@ -55,6 +54,36 @@
         "Diseño y Maquetación: Creación de un diseño que captura la esencia del trabajo artesanal.",
         "Desarrollo Frontend: Implementación de galerías de imágenes y secciones informativas.",
         "Mantenimiento y Actualizaciones: Soporte continuo y desarrollo de nuevas funcionalidades según las necesidades del artesano."
+      ],
+    
+    "situacion": "Actualmente a cargo del desarrollo y futuras actualizaciones."
+  },
+  
+    {
+    "id": "gregorio-penna",
+    "titulo": "Portafolio de Gregorio Peña",
+    "imagen": "/assets/images/nymoon.jpg",
+    "descripcion": "Desarrollo de un sitio web personalizado para un artista plástico, que desea mostrar su obra en diversas temáticas.",
+    "tecnologias": [
+      {
+        "path": "/assets/images/html5.svg",
+        "alt": "html5 badge"
+      },
+      {
+        "path": "/assets/images/css3.svg",
+        "alt": "css3 badge"
+      },
+      {
+        "path": "/assets/images/javascript.svg",
+        "alt": "javascript badge"
+      }
+    ],
+    "urlProyecto": "",
+    "urlCodigo": "",
+    "detalles": [
+        "Diseño y Maquetación: Creación de un diseño que se asemeja a un periódico antiguo, basado en la estética de NY Moon.",
+        "Desarrollo Frontend: Implementación de galería de imágenes y secciones informativas.",
+        "Mantenimiento y Actualizaciones: Soporte continuo y desarrollo de nuevas funcionalidades según las necesidades del cliente."
       ],
     
     "situacion": "Actualmente a cargo del desarrollo y futuras actualizaciones."

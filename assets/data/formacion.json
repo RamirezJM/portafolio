@@ -138,18 +138,10 @@
     "link": "/assets/certificados/diseño-web.pdf"
   },
   {
-    "titulo": "Principios básicos de internet de las cosas",
-    "institucion": "SENCE",
-    "horas": 20,
-    "fecha": "Noviembre-2023",
-    "habilidades": "IoT - programación - algoritmos",
-    "link": "/assets/certificados/iot.pdf"
-  },
-  {
     "titulo": "Lenguaje Scratch",
     "institucion": "Jovenes Programadores",
     "horas": 40,
-    "fecha": "Septiembre-23",
+    "fecha": "Septiembre-2023",
     "habilidades": "Scratch - programación - algoritmos",
     "link":"/assets/certificados/scratch.pdf"
   },
@@ -166,5 +158,13 @@
     "estudiando": true,
     "fecha": "Septiembre-2025",
     "link": "https://www.coursera.org/professional-certificates/backend-javascript-developer"
+  },
+   {
+    "titulo": "Modern Web Development: Advanced HTML & CSS Specialization",
+    "institucion": "Board Infinity",
+    "horas": 60,
+    "fecha": "Septiembre-2025",
+    "habilidades": "",
+    "link":"https://www.coursera.org/account/accomplishments/specialization/9AWYHHHR0VP8"
   }
 ]

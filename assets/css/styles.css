@@ -40,7 +40,7 @@ html{
 
 body{
   font-family: 'Manrope', sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
   scroll-behavior: smooth;
   color: #f0f0f0;
   background: var(--main);
@@ -311,9 +311,10 @@ main{
 
 span{
 /*   font-weight: 600; */
-  
-  background-color: #242424;
-  padding: .1em;
+/*   
+  background-color: #202020;
+  padding: .1em; */
+  color: #BD9EFA;
 }
 /*****  SKILLS  *****/
 

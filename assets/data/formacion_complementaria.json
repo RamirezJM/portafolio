@@ -89,17 +89,9 @@
     "habilidades": "Estadística - probabilidad - gráficos",
     "link": "https://www.coursera.org/account/accomplishments/records/G6BX4EGPQKV4"
   },
+  
   {
     "id": 11,
-    "titulo": "Aprender",
-    "institucion": "Universidad Nacional Autónoma de México",
-    "horas": 9,
-    "fecha": "Octubre-2023",
-    "habilidades": "Aprendizaje - pensamiento crítico - productividad",
-    "link": "https://www.coursera.org/account/accomplishments/records/MAGPEQPKYSDN"
-  },
-  {
-    "id": 12,
     "titulo": "Learning How to Learn",
     "institucion": "Deep Teaching Solutions",
     "horas": 19,
@@ -108,7 +100,7 @@
     "link": "https://www.coursera.org/account/accomplishments/records/X6B9YCCRJ5HD"
   },
   {
-    "id": 13,
+    "id": 12,
     "titulo": "Inglés Avanzado",
     "institucion": "Biblioredes",
     "horas": 30,
