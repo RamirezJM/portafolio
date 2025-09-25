@@ -33,34 +33,28 @@ html{
   --gradient2: linear-gradient(45deg, #121212, #2b2b2b, #1c1c1c, #2b2b2b);
   --bg1: #1c1c1e;
   --bg2: #2a2e35;
-
+  --font-body: 'Manrope', sans-serif;
+  --font-heading: 'DM Serif Display', serif;
+  --font-color: #f0f0f0;
+  --title-color: #8b56f6;
+  --accent: #2563eb;
 }
 
 /*****  GENERAL  *****/
 
 body{
-  font-family: 'Manrope', sans-serif;
+  font-family: var(--font-body);
   line-height: 1.6;
   scroll-behavior: smooth;
-  color: #f0f0f0;
+  color: var(--font-color);
   background: var(--main);
-  background-size: 300% 100%;
-  min-height: 100vh;
-  animation: gradient-flow 15s linear infinite;
-
-
-  /* background-color: #121212;
-  background-image: radial-gradient(circle, rgba(255,255,255,0.015) 1px, transparent 1px);
-  background-size: 20px 20px;
-
-  color: #e0e0e0; */
 }
 
 
 h1, h2, h3{
-  /* font-family: 'DM Serif Display', serif; */
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #8b56f6; 
+  
+  font-family: var(--font-heading);
+  color: var(--title-color); 
 
 }
 h1{
@@ -75,7 +69,6 @@ h2{
   
 }
 h2::after{
-
   content: '';
   display: block;
   width: 150px;
@@ -95,11 +88,7 @@ h3{
 .about, .skills, .formation, .projects, .references, .contact{
   width: 80%;
   max-width: 1100px;
-  /* margin:0 auto; */
- /*  padding: 1em; */
-}
-
-
+ }
 
 a{
   color: #34de99;
@@ -155,7 +144,7 @@ header{
 
 
 .logo{
-  width: clamp(40px, 8.5vw, 80px);
+  width: clamp(60px, 8.5vw, 80px);
 }
 
 .hamburger-menu {
@@ -175,7 +164,7 @@ header{
   display: block;
   width: 25px;
   height: 3px;
-  background-color: #2563eb;
+  background-color: var(--accent);
   border-radius: 2px;
   transition: all 0.3s ease;
  
@@ -208,7 +197,7 @@ nav{
    max-height: 0;
    opacity: 0;
    visibility: hidden;
-   /* transition: opacity .3s ease-out, max-height .3s ease-out, visibility .3s; */
+   
    
 }
 .active{
@@ -240,10 +229,6 @@ nav{
   border-bottom: 2px solid #34de99;  /* Igual que color base */
   font-weight: bold;
 }
-/* .active-link{
-  text-decoration: underline;
-  color: red;
-} */
 
 main{
   display: flex;
@@ -257,8 +242,8 @@ main{
 
 .hero{
   background-color: var(--gradient2);
-  animation: gradient-flow 15s linear infinite;
   padding: 2em 4em;
+  box-shadow: 0 3px 2px #4b5563;
   
 }
 .hero, .hero-text{
@@ -410,9 +395,11 @@ span{
 }
 
 /*****  PROJECTS  *****/
-/* .projects{
-  min-height: 100vh;
-} */
+#project-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+} 
 
 .project{
  /*  display: flex;
@@ -421,10 +408,10 @@ span{
   display: grid;
   grid-template-columns: 1fr;
   gap: 1em;
-  border: green solid 1px;
+  border: var(--accent) solid 2px;
   border-radius: 5px;
   padding: 1em;
- /*  margin-block: 1em; */
+ 
 }
 
 .project-info{
@@ -460,23 +447,30 @@ span{
   width: 30px;
 }
 
+.btn-details{
+  border-radius: 5px;
+  background-color: var(--accent);
+  color: var(--font-color);
+  border: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  width: fit-content;
+  padding: .5em 1em;
+  align-self: center;
+}
+
 .project-details{
   max-height: 0;
   overflow: hidden;
    padding-top: 0;
     padding-bottom: 0;
-    opacity: 0; /* Inicia transparente */
+    opacity: 0;
     transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.5s ease-out;
 }
 
 .project-details.show-details {
-    /* Un valor lo suficientemente grande para contener todo el contenido cuando está desplegado */
-    /* Ajusta este valor si tu contenido es muy largo */
-    max-height: 900px; 
-  /*   padding-top: 15px;
-    padding-bottom: 15px; */
-    opacity: 1; /* Se vuelve visible */
-    
+   max-height: 900px; 
+    opacity: 1; 
 }
 
 .rol-details{
@@ -488,17 +482,25 @@ span{
   margin-block: .7em;
 }
 
+.swiper-wrapper{
+  margin-block: 1em;
+}
 
-
-
-
-.swiper>blockquote{
+blockquote{
   width: 80%;
-  
+  margin: 2em auto;
 }
-.swiper-button-prev, .swiper-button-next{
+
+.quote{
+  font-style: italic;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-block: 1em;
+}
+
+/* .swiper-button-prev, .swiper-button-next{
   display: none;
-}
+} */
 /*****  CONTACT  *****/
 
 

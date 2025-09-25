@@ -63,7 +63,6 @@ menuButton.addEventListener('click', () => {
 AOS.init();
 
 
-
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
@@ -85,6 +84,28 @@ const swiper = new Swiper('.swiper', {
 
 });
 
+
+/* const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  autoplay: {
+    delay: 10000,
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+ */
 
 
 

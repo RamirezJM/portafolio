@@ -3,7 +3,7 @@
     "id": "mundo-animal",
     "titulo": "Peluquería canina Mundo Animal",
     "imagen": "/assets/images/mundo_animal.jpg",
-    "descripcion": "Desarrollo de un sitio web para una peluquería canina con con 20 años de trayectoria, que aumentó sus ventas de servicios un 30%. Implementé una estrategia SEO integral  que la ubicó en el Top 5 de búsquedas locales en solo 3 meses, superando a competidores consolidados",
+    "descripcion": "Desarrollé un sitio web para una peluquería canina con 20 años de trayectoria pero sin presencia digital. Con una estrategia de SEO integral en meses logró ubicarse en el top 3 de búsquedas locales, superando a competidores con años de posicionamiento, y aumentó sus ventas de servicios en un 30%.",
     "tecnologias": [
       {
         "path": "/assets/images/html5.svg",
@@ -23,17 +23,17 @@
     "detalles": [
       "Diseño y Maquetación: Conceptualización y creación de la interfaz de usuario (UI) y experiencia de usuario (UX) para asegurar un sitio intuitivo y atractivo.",
       "Desarrollo Frontend: Implementación completa del sitio web, asegurando responsividad y rendimiento.",
-      "Estrategia SEO y Posicionamiento: Investigación de palabras clave, implementación de etiquetas semánticas, meta etiquetas, optimización de Google My Business (GBP) y monitoreo para lograr el posicionamiento en el Top 5 local.",
+      "Estrategia SEO y Posicionamiento: Investigación de palabras clave, implementación de etiquetas semánticas, meta etiquetas, optimización de GBP y monitoreo para lograr el posicionamiento en el Top 3 local.",
       "Comunicación con el Cliente: Explicación clara de aspectos técnicos y progreso del proyecto a la clienta, asegurando su comprensión y satisfacción.",
       "Despliegue y Mantenimiento Continuo: Gestión del hosting, despliegue inicial y soporte técnico para todas las actualizaciones y necesidades futuras del sitio."
     ],
-    "situacion": "actualmente sigo siendo el desarrollador del sitio y trabajo en su mantenimiento y optimizaciones."
+    "situacion": "Actualmente sigo siendo el desarrollador del sitio y trabajo en su mantenimiento y optimizaciones. Además, junto a la propietaria trabajamos en la creación de un blog, que responda a las dudas frecuentes de los clientes y aumente el prestigio local del sitio."
   },
    {
     "id": "lazaro-igor",
-    "titulo": "Lázaro Igor, Caleta Tortel",
+    "titulo": "Portafolio digital de artesano en madera",
     "imagen": "/assets/images/lazaro_igor.jpg",
-    "descripcion": "Desarrollo de un sitio web personalizado para un artesano de Caleta Tortel, con el fin de visibilizar su obra en madera, detallar su proceso creativo y promover sus talleres.",
+    "descripcion": "Desarrollé de un portafolio digital para un artesano de Caleta Tortel, con el fin de visibilizar su obra en madera, detallar su proceso creativo y promover sus talleres.",
     "tecnologias": [
       {
         "path": "/assets/images/html5.svg",
@@ -51,19 +51,19 @@
     "urlProyecto": "https://lazaroigortortel.cl/",
     "urlCodigo": "https://github.com/RamirezJM/Lazaro_Igor",
     "detalles": [
-        "Diseño y Maquetación: Creación de un diseño que captura la esencia del trabajo artesanal.",
+        "Diseño y Maquetación: Creación de un diseño que captura la esencia del trabajo artesanal con una paleta de colores inspirada en las maderas de su obra.",
         "Desarrollo Frontend: Implementación de galerías de imágenes y secciones informativas.",
         "Mantenimiento y Actualizaciones: Soporte continuo y desarrollo de nuevas funcionalidades según las necesidades del artesano."
       ],
     
-    "situacion": "Actualmente a cargo del desarrollo y futuras actualizaciones."
+    "situacion": "Actualmente soy el desarrollador del proyecto y trabajo junto al cliente en actualizaciones de la web."
   },
   
     {
     "id": "gregorio-penna",
-    "titulo": "Portafolio de Gregorio Peña",
-    "imagen": "/assets/images/nymoon.jpg",
-    "descripcion": "Desarrollo de un sitio web personalizado para un artista plástico, que desea mostrar su obra en diversas temáticas.",
+    "titulo": "Portafolio digital de artista visual",
+    "imagen": "/assets/images/gregorio.jpg",
+    "descripcion": "Desarrollo el portafolio digital para un artista plástico, que busca exponerlo con una estética vintage, asemejando un periódico antiguo.",
     "tecnologias": [
       {
         "path": "/assets/images/html5.svg",
@@ -81,11 +81,39 @@
     "urlProyecto": "",
     "urlCodigo": "",
     "detalles": [
-        "Diseño y Maquetación: Creación de un diseño que se asemeja a un periódico antiguo, basado en la estética de NY Moon.",
-        "Desarrollo Frontend: Implementación de galería de imágenes y secciones informativas.",
+        "Diseño y Maquetación: Creación de un diseño que se asemeja a un periódico antiguo, agregando tipografía, texturas, colores y layout adecuado.",
+        "Desarrollo Frontend: Como sección central, se agrega un grid con las obras del artista",
         "Mantenimiento y Actualizaciones: Soporte continuo y desarrollo de nuevas funcionalidades según las necesidades del cliente."
       ],
     
-    "situacion": "Actualmente a cargo del desarrollo y futuras actualizaciones."
+    "situacion": " Actualmente trabajo junto al cliente en detalles del diseño, funcionalidad y carga de contenidos.Textos e imágenes de la galería de obras contienen placeholder, a la espera de que el cliente finalice sus trabajos para la exposición."
+  },
+  {
+    "id": "madereros-tortel",
+    "titulo": "Sitio Web del Colectivo de Madereros de Tortel",
+    "imagen": "/assets/images/logo_madereros.jpeg",
+    "descripcion": "Desarrollo el sitio web para el Colectivo de Madereros de Caleta Tortel, entre cuyos integrantes se encuentran tejueleros declarados 'Tesoros Humanos Vivos'. El objetivo del sitio es mostrar todo su legado cultural.",
+    "tecnologias": [
+      {
+        "path": "/assets/images/html5.svg",
+        "alt": "html5 badge"
+      },
+      {
+        "path": "/assets/images/css3.svg",
+        "alt": "css3 badge"
+      },
+      {
+        "path": "/assets/images/javascript.svg",
+        "alt": "javascript badge"
+      }
+    ],
+    "urlProyecto": "",
+    "urlCodigo": "",
+    "detalles": [
+        "Diseño y Maquetación: El requerimiento del cliente apunta a mostrar sus actividades, trabajos y talleres, por lo que necesita contar con variadas galerías de imágenes."
+        
+      ],
+    
+    "situacion": " Actualmente el proyecto se encuentra en fase inicial, desarrollo de wireframes y prototipos, y analizando junto al cliente el material disponible para diseñar las secciones del sitio web."
   }
 ]
