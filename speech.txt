@@ -1,5 +1,0 @@
-Como Desarrollador Web con 2 años de experiencia, incluyendo proyectos exitosos como freelance, me apasiona construir soluciones web robustas y escalables. Me atrae la programación por su naturaleza multifacética: un punto de encuentro entre el arte de la creación, la precisión de la ciencia y el desafío constante de la resolución de problemas.
-
-Soy experto en el desarrollo frontend con React.js y Next.js, dominando HTML, CSS, y Tailwind CSS, con un enfoque en optimizaciones UX/UI. Mi experiencia en proyectos de cliente ha solidificado mi capacidad para generar impacto en el negocio, como el posicionamiento SEO y el aumento de las ventas de servicios.
-
-Siempre estoy buscando expandir mis conocimientos, como con mi reciente bootcamp en Vue, y explorar nuevas tecnologías. Mi curiosidad innata, lógica y creatividad me impulsan a encontrar soluciones innovadoras y eficientes. Estoy listo para aplicar mis habilidades en entornos dinámicos y contribuir al éxito de proyectos desafiantes.

@@ -78,8 +78,8 @@
         "alt": "javascript badge"
       }
     ],
-    "urlProyecto": "",
-    "urlCodigo": "",
+    "urlProyecto": "https://ramirezjm.github.io/Portafolio_Gregorio_Penna/",
+    "urlCodigo": "https://github.com/RamirezJM/Portafolio_Gregorio_Penna",
     "detalles": [
         "Diseño y Maquetación: Creación de un diseño que se asemeja a un periódico antiguo, agregando tipografía, texturas, colores y layout adecuado.",
         "Desarrollo Frontend: Como sección central, se agrega un grid con las obras del artista",
@@ -107,8 +107,8 @@
         "alt": "javascript badge"
       }
     ],
-    "urlProyecto": "",
-    "urlCodigo": "",
+    "urlProyecto": null,
+    "urlCodigo": null,
     "detalles": [
         "Diseño y Maquetación: El requerimiento del cliente apunta a mostrar sus actividades, trabajos y talleres, por lo que necesita contar con variadas galerías de imágenes."
         

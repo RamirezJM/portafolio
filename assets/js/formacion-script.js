@@ -1,12 +1,9 @@
-
 const buttons = document.querySelectorAll('.tab-btn')
 const contents = document.querySelectorAll('.tab-content')
-
 buttons.forEach(btn => {
   btn.addEventListener('click', () => {
     buttons.forEach(b => b.classList.remove('active'))
     contents.forEach(c => c.classList.remove('active'))
-
     btn.classList.add('active');
     document.getElementById(btn.dataset.tab).classList.add('active')
   })
@@ -14,26 +11,18 @@ buttons.forEach(btn => {
 
 async function dataLoad(tabId, jsonData) {
   const container = document.getElementById(tabId)
-
   try {
     const res = await fetch(jsonData)
     const data = await res.json()
-
     data.sort((a, b) => {
-      // 1. Priorizar los que tienen la propiedad 'estudiando'
       const aEstudia = 'estudiando' in a;
       const bEstudia = 'estudiando' in b;
-
       if (aEstudia !== bEstudia) {
-        return bEstudia - aEstudia; // true - false → los que estudian arriba
+        return bEstudia - aEstudia;
       }
-
-      // 2. Si ambos tienen o no tienen 'estudiando', seguimos:
       if ('id' in a && 'id' in b) {
-        return a.id - b.id; // Formación complementaria
+        return a.id - b.id;
       }
-
-      // 3. Si no tienen id, son formaciones técnicas
       return b.horas - a.horas;
     });
 
@@ -59,7 +48,6 @@ async function dataLoad(tabId, jsonData) {
                     <p>${item.horas} horas</p>
                     <p>${item.fecha}</p>
                 `
-
       }
       card.innerHTML = content
       container.appendChild(card)
@@ -68,7 +56,6 @@ async function dataLoad(tabId, jsonData) {
     console.error('Error cargando datos:', error)
 
   }
-
 }
 dataLoad('tecnica', 'assets/data/formacion.json')
 dataLoad('complementaria', 'assets/data/formacion_complementaria.json')
