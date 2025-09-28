@@ -3,7 +3,7 @@
     "id": "mundo-animal",
     "titulo": "Peluquería canina Mundo Animal",
     "imagen": "/assets/images/mundo_animal.jpg",
-    "descripcion": "Desarrollé un sitio web para una peluquería canina con 20 años de trayectoria pero sin presencia digital. Con una estrategia de SEO integral en meses logró ubicarse en el top 3 de búsquedas locales, superando a competidores con años de posicionamiento, y aumentó sus ventas de servicios en un 30%.",
+    "descripcion": "Desarrollé un sitio web para una peluquería canina con 20 años de trayectoria pero sin presencia digital. Con una estrategia de SEO integral, en meses logró ubicarse en el top 3 de búsquedas locales, superando a competidores con años de posicionamiento, y aumentó sus ventas de servicios en un 30%.",
     "tecnologias": [
       {
         "path": "/assets/images/html5.svg",
@@ -52,7 +52,7 @@
     "urlCodigo": "https://github.com/RamirezJM/Lazaro_Igor",
     "detalles": [
         "Diseño y Maquetación: Creación de un diseño que captura la esencia del trabajo artesanal con una paleta de colores inspirada en las maderas de su obra.",
-        "Desarrollo Frontend: Implementación de galerías de imágenes y secciones informativas.",
+        "Desarrollo Frontend: Implementación completa del sitio web, con énfasis en galerías de imágenes y secciones informativas.",
         "Mantenimiento y Actualizaciones: Soporte continuo y desarrollo de nuevas funcionalidades según las necesidades del artesano."
       ],
     
@@ -63,7 +63,7 @@
     "id": "gregorio-penna",
     "titulo": "Portafolio digital de artista visual",
     "imagen": "/assets/images/gregorio.jpg",
-    "descripcion": "Desarrollo el portafolio digital para un artista plástico, que busca exponerlo con una estética vintage, asemejando un periódico antiguo.",
+    "descripcion": "Actualmente estoy desarrollando un portafolio web para un artista plástico, con un requerimiento de diseño particular: replicar la estética de un periódico vintage, agregando la textura, colores y tipografías indicadas.",
     "tecnologias": [
       {
         "path": "/assets/images/html5.svg",
@@ -81,18 +81,17 @@
     "urlProyecto": "https://ramirezjm.github.io/Portafolio_Gregorio_Penna/",
     "urlCodigo": "https://github.com/RamirezJM/Portafolio_Gregorio_Penna",
     "detalles": [
-        "Diseño y Maquetación: Creación de un diseño que se asemeja a un periódico antiguo, agregando tipografía, texturas, colores y layout adecuado.",
-        "Desarrollo Frontend: Como sección central, se agrega un grid con las obras del artista",
-        "Mantenimiento y Actualizaciones: Soporte continuo y desarrollo de nuevas funcionalidades según las necesidades del cliente."
+        "Diseño y Maquetación: Creación de un diseño con una textura de papel antiguo, un gradiente radial con colores blancos amarillentos, y tipografía como 'Libre Caslon Display', similar a la de periódicos. Como sección central, se agrega un grid con las obras del artista",
+        "Mantenimiento y Actualizaciones: El proyecto incluye soporte continuo, como adición de nuevas obras y desarrollo de nuevas funcionalidades según las necesidades del cliente."
       ],
     
-    "situacion": " Actualmente trabajo junto al cliente en detalles del diseño, funcionalidad y carga de contenidos.Textos e imágenes de la galería de obras contienen placeholder, a la espera de que el cliente finalice sus trabajos para la exposición."
+    "situacion": "Actualmente trabajo junto al cliente en detalles del diseño, funcionalidad y carga de contenidos.Textos e imágenes de la galería de obras contienen placeholder, a la espera de que el cliente finalice sus trabajos para la exposición."
   },
   {
     "id": "madereros-tortel",
     "titulo": "Sitio Web del Colectivo de Madereros de Tortel",
     "imagen": "/assets/images/logo_madereros.jpeg",
-    "descripcion": "Desarrollo el sitio web para el Colectivo de Madereros de Caleta Tortel, entre cuyos integrantes se encuentran tejueleros declarados 'Tesoros Humanos Vivos'. El objetivo del sitio es mostrar todo su legado cultural.",
+    "descripcion": "Desarrollo el sitio web para el Colectivo de Madereros de Caleta Tortel, entre cuyos integrantes se encuentran tejueleros declarados 'Tesoros Humanos Vivos'. El objetivo del sitio es mostrar su trabajo, sus talleres y todo su legado cultural.",
     "tecnologias": [
       {
         "path": "/assets/images/html5.svg",
@@ -114,6 +113,6 @@
         
       ],
     
-    "situacion": " Actualmente el proyecto se encuentra en fase inicial, desarrollo de wireframes y prototipos, y analizando junto al cliente el material disponible para diseñar las secciones del sitio web."
+    "situacion": "El proyecto se encuentra en su fase inicial. En esta primera etapa, estoy trabajando en el diseño y desarrollo de una landing page mediante wireframes y prototipos. Además, analizo junto al cliente el abundante material del que dispone, de manera de elegir la mejor estructura para el sitio."
   }
 ]
