@@ -470,6 +470,7 @@ h4{
 .project-details.show-details {
   max-height: 900px;
   opacity: 1;
+  overflow-y: auto;
 }
 
 .rol-details {
