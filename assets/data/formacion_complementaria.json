@@ -36,7 +36,7 @@
     "link":null
   },
   {
-    "id": 5,
+    "id": 6,
     "titulo": "British Council English Online Self-Study Level B-2",
     "institucion": "British Council",
     "horas": 216,
@@ -45,7 +45,7 @@
     "link":"/assets/certificados/british.pdf"
   },
     {
-    "id": 6,
+    "id": 7,
     "titulo": "English for Developers",
     "institucion": "Eductecno",
     "horas": 50,
@@ -54,7 +54,7 @@
     "link":"/assets/certificados/ingles-edutecno.pdf"
   },
   {
-    "id": 7,
+    "id": 8,
     "titulo": "English for Interactions in the Workplace Intermediate Level",
     "institucion": "Pontificia Universidad Católica de Chile",
     "horas": 11,
@@ -63,7 +63,7 @@
     "link":"https://www.coursera.org/account/accomplishments/records/YWTTGXY3VBTS"
   },
   {
-    "id": 8,
+    "id": 9,
     "titulo": "English for Science, Technology, Engineering, and Mathematics",
     "institucion": "University of Pennsylvania",
     "horas": 34,
@@ -72,7 +72,7 @@
     "link": "https://www.coursera.org/account/accomplishments/records/K8XC474Y7BWK"
   },
   {
-    "id": 9,
+    "id": 10,
     "titulo": "English for Common Interactions in the Workplace: Basic Level",
     "institucion": "Pontificia Universidad Católica de Chile",
     "horas": 8,
@@ -81,7 +81,7 @@
     "link": "https://www.coursera.org/account/accomplishments/records/KXJZ56RJNMJU"
   },
   {
-    "id": 10,
+    "id": 11,
     "titulo": "Estadística y probabilidad",
     "institucion": "Universidad Nacional Autónoma de México",
     "horas": 28,
@@ -91,7 +91,7 @@
   },
   
   {
-    "id": 11,
+    "id": 12,
     "titulo": "Learning How to Learn",
     "institucion": "Deep Teaching Solutions",
     "horas": 19,
@@ -100,7 +100,7 @@
     "link": "https://www.coursera.org/account/accomplishments/records/X6B9YCCRJ5HD"
   },
   {
-    "id": 12,
+    "id": 13,
     "titulo": "Inglés Avanzado",
     "institucion": "Biblioredes",
     "horas": 30,
@@ -109,11 +109,12 @@
     "link": "/assets/certificados/ingles-biblio.pdf"
   },
     {
+    "id": 5,
     "titulo": "English Communication for Tech Professionals",
     "institucion": "Arizona State University",
-    "estudiando": true,
-    "fecha": "Septiembre-2025",
-    "link": "https://www.coursera.org/learn/english-communication-for-tech-professionals"
+    "horas": 73,
+    "fecha": "Noviembre-2025",
+    "link": "https://www.coursera.org/account/accomplishments/verify/0QK4LKWG1OBR"
   }
  
 ]

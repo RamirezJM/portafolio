@@ -160,11 +160,28 @@
     "link": "https://www.coursera.org/professional-certificates/backend-javascript-developer"
   },
    {
-    "titulo": "Modern Web Development: Advanced HTML & CSS Specialization",
-    "institucion": "Board Infinity",
-    "horas": 60,
+    "titulo": "The Complete Vue.js Course for Beginners",
+    "institucion": "Packt",
+    "horas": 8,
     "fecha": "Septiembre-2025",
     "habilidades": "",
-    "link":"https://www.coursera.org/account/accomplishments/specialization/9AWYHHHR0VP8"
+    "link":"https://www.coursera.org/account/accomplishments/verify/7XQ8TG54XK3H"
+  },
+   {
+    "titulo": "Vue.js 3 and Firebase for Beginners",
+    "institucion": "Packt",
+    "horas": 11,
+    "fecha": "Octubre-2025",
+    "habilidades": "",
+    "link":"https://www.coursera.org/account/accomplishments/verify/JD0SDKQABYXB"
+  },
+   {
+    "titulo": "Bootstrap 5 From Scratch - Build 5 Modern Websites",
+    "institucion": "Packt",
+    "horas": 19,
+    "fecha": "Octubre-2025",
+    "habilidades": "",
+    "link":"https://www.coursera.org/account/accomplishments/verify/RH9PO252MHV9"
   }
+  
 ]
