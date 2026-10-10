@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "titulo": "Bootcamp Desarrollo de Aplicaciones Fullstack Javascript Trainee",
+    "imagen": "/assets/images/insignias/td-fullstack.png",
+    "link": "https://acreditta.com/credential/53a7bdbf-f4bf-4d8c-a524-44fa2e30e5c6?utm_source=copy&resource_type=badge&resource=53a7bdbf-f4bf-4d8c-a524-44fa2e30e5c6"
+  },
+  {
+    "id": 2,
+    "titulo": "Bootcamp Desarrollo de Aplicaciones Frontend Trainee",
+    "imagen": "/assets/images/insignias/td-frontend.png",
+    "link": "https://www.acreditta.com/credential/5d5dffe1-41b6-4f58-b1b8-ca5c444c497c?utm_source=copy&resource_type=badge&resource=5d5dffe1-41b6-4f58-b1b8-ca5c444c497c"
+  },
+  {
+    "id": 3,
+    "titulo": "Certificado de Análisis de Datos de Google",
+    "imagen": "/assets/images/insignias/datos-google.png",
+    "link": "https://www.credly.com/badges/5daf116e-a71c-4efc-bb47-6c94f9268b33/public_url"
+  },
+  {
+    "id": 4,
+    "titulo": "Google AI Essentials",
+    "imagen": "/assets/images/insignias/google-ai.png",
+    "link": "https://www.credly.com/badges/8debff87-c0e4-4edf-bfa2-6062f2d7e995/public_url"
+  },
+  {
+    "id": 5,
+    "titulo": "Google UX Design Professional Certificate",
+    "imagen": "/assets/images/insignias/google-ux.png",
+    "link": "https://www.credly.com/badges/49611119-47a9-4b4b-8e9d-8dfc1abe15ad/public_url"
+  },
+  {
+    "id": 6,
+    "titulo": "Meta Frontend Developer Certificate",
+    "imagen": "/assets/images/insignias/meta-frontend.png",
+    "link": "https://www.credly.com/badges/99412a09-8cea-49fb-8870-931b6ad6d12f/public_url"
+  },
+  {
+    "id": 7,
+    "titulo": "Introduction to HTML, CSS & Javascript",
+    "imagen": "/assets/images/insignias/html-css-js.png",
+    "link": "hhttps://www.credly.com/badges/e0843378-026f-4cbc-820d-b1ea43ca6d33/public_url"
+  },
+  {
+    "id": 8,
+    "titulo": "Javascript Programming Essentials",
+    "imagen": "/assets/images/insignias/js-essentials.png",
+    "link": "https://www.credly.com/badges/df33528c-f7bc-4e06-bc2a-58be4bfc8427/public_url"
+  },
+  {
+    "id": 9,
+    "titulo": "Software Engineering Essentials",
+    "imagen": "/assets/images/insignias/software-engineering.png",
+    "link": "https://www.credly.com/badges/a9e4057a-3059-4f39-bab9-96db3286790d/public_url"
+  },
+  {
+    "id": 10,
+    "titulo": "Git and Github Essentials",
+    "imagen": "/assets/images/insignias/github.png",
+    "link": "https://www.credly.com/badges/c5fb9ace-911f-43e2-98bb-80338ecd0814/public_url"
+  },
+  {
+    "id": 11,
+    "titulo": "Designings User Interfaces & Experiences (UX/UI)",
+    "imagen": "/assets/images/insignias/ux-ui.png",
+    "link": "https://www.credly.com/badges/f7f3be00-d5a5-468f-9e19-56ae8dafe789/public_url"
+  },
+  {
+    "id": 12,
+    "titulo": "Cloud Native, DevOps, Agile & NoSQL Essentials",
+    "imagen": "/assets/images/insignias/cloud-native.png",
+    "link": "https://www.credly.com/badges/f9b74f02-6fe6-476a-9564-d88d9cb4afed/public_url"
+  },
+  {
+    "id": 13,
+    "titulo": "Application Development using Microservices and Serverless",
+    "imagen": "/assets/images/insignias/microservices.png",
+    "link": "https://www.credly.com/badges/62242713-6458-46b5-abf0-cd64d93a2505/public_url"
+  },
+  {
+    "id": 14,
+    "titulo": "Getting Started with Front-End and Web Development",
+    "imagen": "/assets/images/insignias/frontend-starting.png",
+    "link": "https://www.credly.com/badges/f46323bf-f708-4692-8e4b-df4821398d7c/public_url"
+  },
+  {
+    "id": 15,
+    "titulo": "Back-end Javascript Developer Professional Certificate",
+    "imagen": "/assets/images/insignias/ibm-backend.png",
+    "link": "https://www.credly.com/badges/55ff8c03-5070-4bbd-9857-e8395759646f/public_url"
+  },
+  {
+    "id": 16,
+    "titulo": "Front-end Javascript Developer Professional Certificate",
+    "imagen": "/assets/images/insignias/ibm-frontend.png",
+    "link": "https://www.credly.com/badges/7865e066-b722-4297-b229-ef1b89ed9809/public_url"
+  },
+  {
+    "id": 17,
+    "titulo": "Full-Stack Javascript Developer Professional Certificate",
+    "imagen": "/assets/images/insignias/ibm-fullstack.png",
+    "link": "https://www.credly.com/badges/b0c1b269-88bd-429b-a821-9b1cacdd61b6/public_url"
+  },
+  {
+    "id": 18,
+    "titulo": "Node and Express Essentials",
+    "imagen": "/assets/images/insignias/node-express.png",
+    "link": "https://www.credly.com/badges/f1c55a61-1b2b-4d8a-828d-6fce03f563b5/public_url"
+  },
+  {
+    "id": 19,
+    "titulo": "Monitoring and Observability for Development and DevOps",
+    "imagen": "/assets/images/insignias/monitoring.png",
+    "link": "https://www.credly.com/badges/7ba2a400-0905-4f46-a0db-a7efd960840e/public_url"
+  },
+  {
+    "id": 20,
+    "titulo": "Security for Professionals and DevOps Professionals",
+    "imagen": "/assets/images/insignias/security.png",
+    "link": "https://www.credly.com/badges/79af09de-bfb2-44b5-b7be-50f4fed66cfa/public_url"
+  },
+  {
+    "id": 21,
+    "titulo": "Software Developer Career Guide and Interview Preparation",
+    "imagen": "/assets/images/insignias/developer-career.png",
+    "link": "https://www.credly.com/badges/95ccf105-f417-4218-a98b-ca1f3a1abef3/public_url"
+  },
+  {
+    "id": 22,
+    "titulo": "Javascript Back-end Development Capstone",
+    "imagen": "/assets/images/insignias/backend-capstone.png",
+    "link": "https://www.credly.com/badges/8d024d93-a8d6-48f4-8380-7b1740fd0d51/public_url"
+  },
+  {
+    "id": 23,
+    "titulo": "Containers & Kubernetes Essentials",
+    "imagen": "/assets/images/insignias/kubernetes.png",
+    "link": "https://www.credly.com/badges/c5a9eac0-2914-4fee-af8b-3394a12faa3c/public_url"
+  },
+  {
+    "id": 24,
+    "titulo": "Developing Websites and Front-Ends with Bootstrap",
+    "imagen": "/assets/images/insignias/bootstrap.png",
+    "link": "https://www.credly.com/badges/911ec37d-5597-4489-b7c0-c463306dcc35/public_url"
+  },
+  {
+    "id": 25,
+    "titulo": "Front-End Development Capstone Project",
+    "imagen": "/assets/images/insignias/frontend-capstone.png",
+    "link": "https://www.credly.com/badges/8d2c84a8-96db-499f-936f-6c2b918148c9/public_url"
+  },
+  {
+    "id": 26,
+    "titulo": "Front-end Development with React V2",
+    "imagen": "/assets/images/insignias/react.png",
+    "link": "https://www.credly.com/badges/0b4665c6-625b-4f23-99cb-0e49961f5401/public_url"
+  },
+  {
+    "id": 27,
+    "titulo": "Intermediate Front-end Web Development",
+    "imagen": "/assets/images/insignias/intermediate-frontend.png",
+    "link": "https://www.credly.com/badges/771ab9d1-a44e-4e0a-9097-13ac3feb8b72/public_url"
+  },
+  {
+    "id": 28,
+    "titulo": "Intermediate Back-end Development: Node & MongoDB",
+    "imagen": "/assets/images/insignias/intermediate-backend.png",
+    "link": "https://www.credly.com/badges/d58f7f0e-5981-414c-983c-8b44664a8ce7/public_url"
+  },
+  {
+    "id": 29,
+    "titulo": "JavaScript Programming with React, Node & MongoDB Specialization",
+    "imagen": "/assets/images/insignias/react-node.png",
+    "link": "https://www.credly.com/badges/020d6f7d-f9bc-48cb-95bc-636a8935f7de/public_url"
+  }
+]
