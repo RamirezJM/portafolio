@@ -12,21 +12,14 @@ async function projectLoad(container, dataProjects) {
                         <section class="project-info">
                           <h3>${project.titulo}</h3>
                           <p class="project-description">${project.descripcion}</p>
-                          <h4>Tecnologías</h4>
+                         
                           <div class="project-badges"></div>
                           <div class="project-links">
-                            <a href="${project.urlCodigo}" target="_blank" rel="noopener noreferrer"><img src="assets/images/github.svg" class="project-link-image"/></a>
-                            <a href="${project.urlProyecto}" target="_blank" rel="noopener noreferrer"><img src="assets/images/world.svg" class="project-link-image"/></a>
-                          </div>
-                          <button class="btn-details" aria-expanded="false" aria-controls="details-${project.titulo}">Ver detalles</button>
-                          <div class="project-details">
-                            <h4>Rol</h4>
-                            <ul class="rol-details">
-                            ${project.detalles.map(detail => `<li>${detail}</li>`).join('')}
-                            </ul>
-                            <h4>Situacion</h4>
-                            <p class=project-status>${project.situacion}</p> 
-                          </div>
+                            <a href="${project.url}" target="_blank" rel="noopener noreferrer">Detalles</a>
+                            
+                          </div> 
+                          
+                        
                         </section>
                        `
       const badges = card.querySelector('.project-badges')
@@ -38,17 +31,17 @@ async function projectLoad(container, dataProjects) {
         badges.appendChild(badgeImage)
       })
 
-      const toggleButton = card.querySelector('.btn-details')
-      const projectDetails = card.querySelector('.project-details')
-      toggleButton.addEventListener('click', () => {
-        projectDetails.classList.toggle('show-details')
-        if (projectDetails.classList.contains('show-details')) {
-          toggleButton.textContent = 'Ocultar detalles'
-        }
-        else {
-          toggleButton.textContent = 'Ver detalles'
-        }
-      })
+      /*    const toggleButton = card.querySelector('.btn-details')
+         const projectDetails = card.querySelector('.project-details')
+         toggleButton.addEventListener('click', () => {
+           projectDetails.classList.toggle('show-details')
+           if (projectDetails.classList.contains('show-details')) {
+             toggleButton.textContent = 'Ocultar detalles'
+           }
+           else {
+             toggleButton.textContent = 'Ver detalles'
+           }
+         }) */
       projectContainer.appendChild(card)
     })
   } catch (error) {
