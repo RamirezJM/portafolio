@@ -148,8 +148,13 @@ header {
 }
 
 @keyframes fixed-appear {
-  from {opacity: 0;}
-  to   {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .hidden {
@@ -159,12 +164,14 @@ header {
 }
 
 @keyframes fixed-disappear {
-  from {opacity: 1;
-        transform: translateY(0);
+  from {
+    opacity: 1;
+    transform: translateY(0);
   }
 
-  to {opacity: 0;
-      transform: translateY(-100%);
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
   }
 }
 
@@ -284,15 +291,17 @@ main {
 }
 
 .hero-text {
-   text-align: center;
+  text-align: center;
 }
+
 
 .social-logo {
   width: clamp(40px, 6vw, 50px);
-  background-color: #34de99;
+  background: linear-gradient(to right, #34de99, #84ebc2, #b9f4dc);
   border-radius: 50%;
   padding: .3em;
   margin-inline: 1em;
+  box-shadow: 2px 2px 2px #4b5563;
 }
 
 /*========  ABOUT  =========*/
@@ -309,7 +318,7 @@ main {
 }
 
 span {
-   color: #BD9EFA;
+  color: #BD9EFA;
 }
 
 /*========  SKILLS  =========*/
@@ -360,7 +369,8 @@ span {
   font-weight: 500;
 }
 
-.tab-content {
+.tab-content,
+#insignias {
   display: none;
   max-height: 500px;
   overflow-y: auto;
@@ -368,17 +378,68 @@ span {
   padding: 1em;
 }
 
+/*  #insignias{
+  height: 600px;
+  max-height: 800px;
+  overflow-y: auto;
+  background: #2a2e35;
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+} 
+ */
+/* .badge{
+  width: 100px;
+} */
+#insignias {
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+  align-items: start;
+}
+
+.badge-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*  border: red solid 1px; */
+  flex-basis: 20%;
+}
+
+/*  .badge-link{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+ } */
+.badge-link img {
+  width: 120px;
+
+}
+
+.badge-skill p {
+  font-size: 0.8rem;
+  /* max-width: 80%; */
+  text-align: center;
+
+}
+
+
 .tab-content.active {
   display: flex;
   flex-direction: column;
   gap: 1em;
 }
 
-.tab-content::-webkit-scrollbar {
+.tab-content::-webkit-scrollbar,
+#insignias::-webkit-scrollbar {
   width: 15px;
 }
 
-.tab-content::-webkit-scrollbar-thumb {
+.tab-content::-webkit-scrollbar-thumb,
+#insignias::-webkit-scrollbar-thumb {
   background-color: var(--accent);
   border-radius: 5px;
   border: solid 1px var(--bg2);
@@ -386,7 +447,8 @@ span {
 
 }
 
-.tab-content::-webkit-scrollbar-thumb:hover {
+.tab-content::-webkit-scrollbar-thumb:hover,
+#insignias::-webkit-scrollbar-thumb:hover {
   background-color: var(--title-color);
   transform: scaleY(1.1)
 }
@@ -406,6 +468,27 @@ span {
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border: var(--bg1) solid 1px;
+  border-radius: 10px;
+  padding: 1em;
+  margin-block: 1em;
+}
+
+.project-info {
+  background-color: var(--bg1);
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+
+}
+
+/* .project {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1em;
@@ -415,15 +498,11 @@ span {
   padding: 1em;
 }
 
-.project-info {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  align-items: center;
-}
+
 
 .project-image {
   width: 100%;
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
 }
 
 .project-badges,
@@ -484,13 +563,13 @@ h4{
 .project-status{
   font-size: 1rem;
   margin-block: 1em;
-}
+} */
 
 /*========  REFERENCES  =========*/
 .swiper {
-    width: 90%;
-    margin: 0 auto;
-  }
+  width: 90%;
+  margin: 0 auto;
+}
 
 .swiper-wrapper {
   margin-block: 1em;
@@ -574,6 +653,51 @@ footer {
   border-top: solid 2px #4b5563;
 }
 
+
+
+/* ========  PROYECTOS  ========= */
+
+.hero-projects {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2/1;
+
+}
+
+.hero-projects-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: initial;
+}
+
+.intro-projects {
+  margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*========  MEDIA QUERIES  =========*/
 
 @media (min-width:800px) {
@@ -592,7 +716,7 @@ footer {
     max-height: 100%;
     opacity: 1;
     visibility: visible;
- }
+  }
 
   .list-links {
     flex-direction: row;
@@ -632,11 +756,18 @@ footer {
 
   .project {
     flex-direction: row;
+    border: none;
+    margin-block: 3rem;
   }
 
-  .project-image {
-    width: 100%;
+
+
+
+  .project-info {
+    margin-bottom: -100px;
+    margin-left: -100px;
   }
+
 
   form {
     grid-template-columns: repeat(5, 1fr);
@@ -659,7 +790,7 @@ footer {
     grid-column: 1/-1;
   }
 
-  
+
 }
 
 @media (min-width:1000px) {
@@ -672,13 +803,13 @@ footer {
     width: 300px;
   }
 
-  .project {
+  /*   .project {
     grid-template-columns: 1fr 1fr;
   }
 
   .project-info {
     order: -1;
-  }
+  } */
 
   p {
     font-size: 1.1rem;
