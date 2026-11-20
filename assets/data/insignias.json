@@ -172,5 +172,29 @@
     "titulo": "JavaScript Programming with React, Node & MongoDB Specialization",
     "imagen": "/assets/images/insignias/react-node.png",
     "link": "https://www.credly.com/badges/020d6f7d-f9bc-48cb-95bc-636a8935f7de/public_url"
+  },
+  {
+    "id": 30,
+    "titulo": "MongoDB 9.0",
+    "imagen": "/assets/images/insignias/mongodb-9.png",
+    "link": "https://www.credly.com/badges/d1a08b16-9160-426a-800c-a78286e5c707/public_url"
+  },
+  {
+    "id": 31,
+    "titulo": "CRUD Operations in MongoDB",
+    "imagen": "/assets/images/insignias/mongodb-crud.png",
+    "link": "https://www.credly.com/badges/e4118852-dd1f-403f-962b-73a1945504ed/public_url"
+  },
+  {
+    "id": 28,
+    "titulo": "MongoDB Indexing Design Fundamentals",
+    "imagen": "/assets/images/insignias/mongodb-indexing.png",
+    "link": "https://www.credly.com/badges/a9b59d19-aefc-4af2-a9bf-30d69d888bb9/public_url"
+  },
+  {
+    "id": 29,
+    "titulo": "From Relational Model (SQL) to MongoDBs Document Model",
+    "imagen": "/assets/images/insignias/mongodb-relational-document.png",
+    "link": "https://www.credly.com/badges/a99a1b0d-14e0-42fc-a252-8ecebfcb933f/public_url"
   }
 ]
