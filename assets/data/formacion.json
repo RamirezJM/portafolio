@@ -1,12 +1,11 @@
 [
-  
   {
     "titulo": "Bootcamp Desarrollo de Aplicaciones Full Stack JavaScript Trainee",
     "institucion": "Talento Digital para Chile",
     "horas": 472,
     "fecha": "Noviembre-2024",
     "habilidades": "HTML5 - CSS3 - JavaScript - Node.js - Express.js - SQL",
-    "link":"https://www.acreditta.com/credential/53a7bdbf-f4bf-4d8c-a524-44fa2e30e5c6"
+    "link": "https://www.acreditta.com/credential/53a7bdbf-f4bf-4d8c-a524-44fa2e30e5c6"
   },
   {
     "titulo": "Meta Front-End Developer Professional Certificate",
@@ -14,7 +13,7 @@
     "horas": 168,
     "fecha": "Julio-2025",
     "habilidades": "HTML5 - CSS3 - JavaScript - React - UX - GitHub - Web Development",
-    "link":"https://www.coursera.org/account/accomplishments/specialization/40OQHU4JKOQR"
+    "link": "https://www.coursera.org/account/accomplishments/specialization/40OQHU4JKOQR"
   },
   {
     "titulo": "Frontend Development Specialization",
@@ -30,7 +29,7 @@
     "horas": 40,
     "fecha": "Septiembre-2025",
     "habilidades": "JavaScript - programming",
-    "link":"https://www.coursera.org/account/accomplishments/specialization/52N9N5A4T3H4"
+    "link": "https://www.coursera.org/account/accomplishments/specialization/52N9N5A4T3H4"
   },
   {
     "titulo": "Google UX Design Professional Certificate",
@@ -38,7 +37,7 @@
     "horas": 240,
     "fecha": "Agosto-2025",
     "habilidades": "User experience - Figma - Design - User research",
-    "link":"https://www.coursera.org/account/accomplishments/specialization/T8V4IBONXRFY"
+    "link": "https://www.coursera.org/account/accomplishments/specialization/T8V4IBONXRFY"
   },
   {
     "titulo": "JavaScript for Beginners Specialization",
@@ -46,7 +45,7 @@
     "horas": 80,
     "fecha": "Septiembre-2025",
     "habilidades": "HTML5 - CSS3 - JavaScript - Web Design - jQuery",
-    "link":"https://www.coursera.org/account/accomplishments/specialization/TGONTKM90YM0"
+    "link": "https://www.coursera.org/account/accomplishments/specialization/TGONTKM90YM0"
   },
   {
     "titulo": "Web Development for Beginners Specialization",
@@ -54,7 +53,7 @@
     "horas": 40,
     "fecha": "Mayo-2025",
     "habilidades": "HTML5 - CSS3 - Web Development - Responsive Design",
-    "link":"https://www.coursera.org/account/accomplishments/specialization/YRXFCAA0WYWL"
+    "link": "https://www.coursera.org/account/accomplishments/specialization/YRXFCAA0WYWL"
   },
   {
     "titulo": "HTML, CSS, and JavaScript for Web Developers Specialization",
@@ -62,7 +61,7 @@
     "horas": 40,
     "fecha": "Marzo-2025",
     "habilidades": "HTML5 - CSS3 - JavaScript - Responsive Design - Web Development",
-    "link":"https://www.coursera.org/account/accomplishments/specialization/0JVTXZEHQJUD"
+    "link": "https://www.coursera.org/account/accomplishments/specialization/0JVTXZEHQJUD"
   },
   {
     "titulo": "Responsive Web Design Specialization",
@@ -70,7 +69,7 @@
     "horas": 40,
     "fecha": "Marzo-2025",
     "habilidades": "Responsive Design",
-    "link":"https://www.coursera.org/account/accomplishments/specialization/1C7O1WVGVOQ6"
+    "link": "https://www.coursera.org/account/accomplishments/specialization/1C7O1WVGVOQ6"
   },
   {
     "titulo": "CSS Specialization",
@@ -78,7 +77,7 @@
     "horas": 40,
     "fecha": "Marzo-2025",
     "habilidades": "HTML5 - CSS3 - Responsive Design",
-    "link":"https://www.coursera.org/account/accomplishments/specialization/C4RZ125YF6HF"
+    "link": "https://www.coursera.org/account/accomplishments/specialization/C4RZ125YF6HF"
   },
   {
     "titulo": "Certificado Profesional de Análisis de datos de Google",
@@ -88,14 +87,13 @@
     "habilidades": "Análisis de datos, SQL, pensamiento analítico, visualización de datos",
     "link": "https://www.coursera.org/account/accomplishments/professional-cert/6PF35XCDDZC0"
   },
-
   {
     "titulo": "Web Design for Everybody: Basics of Web Development & Coding",
     "institucion": "University of Michigan",
     "horas": 80,
     "fecha": "Noviembre-2024",
     "habilidades": "HTML5 - CSS3 - Responsive Design - Web Development",
-    "link":"https://www.coursera.org/account/accomplishments/specialization/KTVO1HMKZFU4"
+    "link": "https://www.coursera.org/account/accomplishments/specialization/KTVO1HMKZFU4"
   },
   {
     "titulo": "Fundamentals of Web Development",
@@ -127,7 +125,7 @@
     "horas": 110,
     "fecha": "Marzo-2024",
     "habilidades": "HTML5 - CSS3 - programación - Wordpress",
-    "link":"/assets/certificados/fund-prog.pdf"
+    "link": "/assets/certificados/fund-prog.pdf"
   },
   {
     "titulo": "Diplomado en Diseño y Programación Web",
@@ -143,45 +141,100 @@
     "horas": 40,
     "fecha": "Septiembre-2023",
     "habilidades": "Scratch - programación - algoritmos",
-    "link":"/assets/certificados/scratch.pdf"
+    "link": "/assets/certificados/scratch.pdf"
   },
-   {
+  {
     "titulo": "Bootcamp Desarrollo de Aplicaciones Front-End Trainee",
     "institucion": "Talento Digital para Chile",
-    "estudiando": true,
+    "horas": "438",
     "fecha": "Septiembre-2025",
-    "link": "https://talentodigitalparachile.cl/curso/desarrollo-de-aplicaciones-full-stack-javascript-trainee/"
+    "link": "https://www.acreditta.com/credential/5d5dffe1-41b6-4f58-b1b8-ca5c444c497c?utm_source=copy&resource_type=badge&resource=5d5dffe1-41b6-4f58-b1b8-ca5c444c497c"
   },
-   {
-    "titulo": "IBM Back-end JavaScript Developer Professional Certificate",
+  {
+    "titulo": "IBM Back-end JavaScript Developer Professional Certificate V2",
     "institucion": "IBM",
-    "estudiando": true,
-    "fecha": "Septiembre-2025",
-    "link": "https://www.coursera.org/professional-certificates/backend-javascript-developer"
+    "horas": "160",
+    "fecha": "Julio-2026",
+    "link": "https://www.credly.com/badges/3e5a4fd2-fd88-40f2-b74f-c69f4f0dd43f/public_url"
   },
-   {
+  {
     "titulo": "The Complete Vue.js Course for Beginners",
     "institucion": "Packt",
     "horas": 8,
     "fecha": "Septiembre-2025",
     "habilidades": "",
-    "link":"https://www.coursera.org/account/accomplishments/verify/7XQ8TG54XK3H"
+    "link": "https://www.coursera.org/account/accomplishments/verify/7XQ8TG54XK3H"
   },
-   {
+  {
     "titulo": "Vue.js 3 and Firebase for Beginners",
     "institucion": "Packt",
     "horas": 11,
     "fecha": "Octubre-2025",
     "habilidades": "",
-    "link":"https://www.coursera.org/account/accomplishments/verify/JD0SDKQABYXB"
+    "link": "https://www.coursera.org/account/accomplishments/verify/JD0SDKQABYXB"
   },
-   {
+  {
     "titulo": "Bootstrap 5 From Scratch - Build 5 Modern Websites",
     "institucion": "Packt",
     "horas": 19,
     "fecha": "Octubre-2025",
     "habilidades": "",
-    "link":"https://www.coursera.org/account/accomplishments/verify/RH9PO252MHV9"
+    "link": "https://www.coursera.org/account/accomplishments/verify/RH9PO252MHV9"
+  },
+  {
+    "titulo": "IBM Front-End Developer Professional Certificate",
+    "institucion": "IBM",
+    "horas": "160",
+    "fecha": "Septiembre-2026",
+    "link": "https://www.credly.com/badges/7865e066-b722-4297-b229-ef1b89ed9809/public_url"
+  },
+  {
+    "titulo": "IBM Full-Stack JavaScript Developer Professional Certificate",
+    "institucion": "IBM",
+    "horas": "160",
+    "fecha": "Septiembre-2026",
+    "link": "https://www.credly.com/badges/b0c1b269-88bd-429b-a821-9b1cacdd61b6/public_url"
+  },
+  {
+    "titulo": "JavaScript Programming with React, Node & MongoDB Specialization",
+    "institucion": "IBM",
+    "horas": "80",
+    "fecha": "Julio-2026",
+    "link": "https://www.credly.com/badges/020d6f7d-f9bc-48cb-95bc-636a8935f7de/public_url"
+  },
+  {
+    "titulo": "Google AI Essentials V1",
+    "institucion": "Google",
+    "horas": "4",
+    "fecha": "Diciembre-2025",
+    "link": "https://www.credly.com/badges/8debff87-c0e4-4edf-bfa2-6062f2d7e995/public_url"
+  },
+  {
+    "titulo": "Meta React Specialization",
+    "institucion": "Meta",
+    "horas": "40",
+    "fecha": "Junio-2025",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/WXI68D6IBGT8"
+  },
+  {
+    "titulo": "Search Engine Optimization (SEO) Specialization",
+    "institucion": "University of California, Davis",
+    "horas": "80",
+    "fecha": "Enero, 2026",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/D8579TRJ0H5A"
+  },
+  {
+    "titulo": "Modern Web Development: Advanced HTML & CSS Specialization",
+    "institucion": "Board Infinity",
+    "horas": "60",
+    "fecha": "Septiembre-2025",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/9AWYHHHR0VP8"
+  },
+  {
+    "titulo": "Tailwind CSS From Scratch - Learn by Building Projects",
+    "institucion": "Packt",
+    "horas": "14",
+    "fecha": "Septiembre-2026",
+    "link": "https://www.coursera.org/account/accomplishments/verify/0TTKULUPYJ3S"
   }
-  
 ]

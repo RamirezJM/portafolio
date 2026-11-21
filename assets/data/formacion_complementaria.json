@@ -5,7 +5,7 @@
     "institucion": "Universidad de Chile",
     "horas": null,
     "fecha": "1999 - 2001",
-    "habilidades": "Ciencias - Humanidades", 
+    "habilidades": "Ciencias - Humanidades",
     "link": null
   },
   {
@@ -13,9 +13,9 @@
     "titulo": "Licenciatura en Historia",
     "institucion": "Universidad de Chile",
     "horas": null,
-    "fecha": "2002 - 2007",
-    "habilidades": null, 
-    "link":null
+    "fecha": "2002 - 2005",
+    "habilidades": null,
+    "link": null
   },
   {
     "id": 3,
@@ -23,8 +23,8 @@
     "institucion": "Centro de Estudios Árabes - Universidad de Chile",
     "horas": null,
     "fecha": "2003 - 2004",
-    "habilidades": null, 
-    "link":null
+    "habilidades": null,
+    "link": null
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "horas": null,
     "fecha": "2006",
     "habilidades": null,
-    "link":null
+    "link": null
   },
   {
     "id": 6,
@@ -42,16 +42,16 @@
     "horas": 216,
     "fecha": "Mayo-2024",
     "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
-    "link":"/assets/certificados/british.pdf"
+    "link": "/assets/certificados/british.pdf"
   },
-    {
+  {
     "id": 7,
     "titulo": "English for Developers",
     "institucion": "Eductecno",
     "horas": 50,
     "fecha": "Noviembre-2024",
     "habilidades": "Technical english",
-    "link":"/assets/certificados/ingles-edutecno.pdf"
+    "link": "/assets/certificados/ingles-edutecno.pdf"
   },
   {
     "id": 8,
@@ -60,7 +60,7 @@
     "horas": 11,
     "fecha": "Mayo-2024",
     "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
-    "link":"https://www.coursera.org/account/accomplishments/records/YWTTGXY3VBTS"
+    "link": "https://www.coursera.org/account/accomplishments/records/YWTTGXY3VBTS"
   },
   {
     "id": 9,
@@ -89,7 +89,6 @@
     "habilidades": "Estadística - probabilidad - gráficos",
     "link": "https://www.coursera.org/account/accomplishments/records/G6BX4EGPQKV4"
   },
-  
   {
     "id": 12,
     "titulo": "Learning How to Learn",
@@ -108,13 +107,20 @@
     "habilidades": "Grammar - Vocabulary - Oral Expression - Writing",
     "link": "/assets/certificados/ingles-biblio.pdf"
   },
-    {
+  {
     "id": 5,
     "titulo": "English Communication for Tech Professionals",
     "institucion": "Arizona State University",
     "horas": 73,
     "fecha": "Noviembre-2025",
     "link": "https://www.coursera.org/account/accomplishments/verify/0QK4LKWG1OBR"
+  },
+  {
+    "id": 14,
+    "titulo": "Certificado EF SET Inglés 73/100 (C2 Proficiente)",
+    "institucion": "EF Set",
+    "horas": "--",
+    "fecha": "Octubre-2025",
+    "link": "https://cert.efset.org/es/SupQoj"
   }
- 
 ]
